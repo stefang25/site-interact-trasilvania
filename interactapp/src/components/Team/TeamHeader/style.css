@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+    .field {
+        text-align: center;
+        font-size: 28px;
+    }
+    .field-desc {
+        text-align: center;
+    }
+}

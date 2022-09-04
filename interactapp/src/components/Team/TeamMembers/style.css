@@ -1,0 +1,19 @@
+.members-list {
+    display: grid;
+    grid-template-columns: repeat(4, 0fr);
+    justify-content: center
+  }
+  
+  @media (max-width: 768px) {
+    .members-list {
+      grid-template-columns: repeat(2, 1fr);
+      justify-content: center
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .members-list {
+      grid-template-columns: repeat(1, 0fr);
+      justify-content: center
+    }
+  }

@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .project-card {
+    width:300px;
+    height:350px;
+  }
+  .image {
+    width:300px;
+    height:350px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .project-card {
+    width:60vw;
+    height:85vw;
+  }
+  .image {
+    width:60vw;
+    height:85vw;
+  }
+}
+
+.project-name {
+  width:225px;
+  height:50px;
+  border-radius: 16px;
+  display: flex; 
+  flex-direction:column;
+  justify-content: center;
+}
+
+.project-action {
+  display: flex;
+  width:225px;
+  height:50px;
+  border-radius: 16px;
+  position: absolute;
+  margin-top: 275px;
+  display: flex; 
+  flex-direction:column;
+  justify-content: center;
+  
+}
+
+.project-title {
+  font-family: 'Dosis', sans-serif;
+  color:#33495f;
+  font-weight: 300;
+}

@@ -1,0 +1,115 @@
+.blog-description {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media (min-width: 768px) {
+    .blog-description {
+        -webkit-line-clamp: 4;
+    }
+    .card-image {
+      width: 190px;
+      height:190px;
+      margin:5px;
+      border-radius: 7px;
+    }
+    .card-action {
+        margin-top: 20px;
+        width:1000px;
+        height:200px;
+    }
+    .blog-card {
+        width:1000px;
+        height:200px;
+    }
+    .card-text {
+        width:700px;
+        margin-left:20px;
+    }
+    .blog-name  {
+        height:100;
+        font-size: 24px;
+        margin-top:10px;
+        margin-bottom: 20px;
+        font-family: 'Dosis', sans-serif
+    }
+    .blog-description {
+        height:70px;
+        width:700px;
+        font-family: 'Dosis', sans-serif;
+        font-size: 15px;
+    }
+    .blog-author {
+        margin-top: 20px;
+        font-size: 13px;
+        font-family: 'Dosis', sans-serif
+    }
+  }
+
+
+@media (max-width: 768px) {
+    .blog-description {
+    -webkit-line-clamp: 3;
+    }
+    .card-image {
+      width: 120px;
+      margin: 5px;
+    }
+    .card-action {
+        width: 350px;
+    }
+    .card {
+        width: 350px;
+    }
+    .card-text {
+        width:300px;
+        font-family: 'Dosis', sans-serif
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .blog-description {
+        -webkit-line-clamp: 2;
+    }
+    .card-image {
+        width: 90px;
+        margin: 4px;
+        border-radius: 7px;
+    }
+    .card-action {
+        margin-top: 15px;
+        width: 95vw;
+    }
+    .card {
+        width: 100vw;
+        height: 100px;
+    }
+    .card-text {
+        width:350px;
+    }
+
+    .blog-name {
+        margin-top: -7px;
+        margin-bottom: 3px;
+        font-size: 16px;
+        height: 35px;
+        width: 60vw;
+        font-family: 'Dosis', sans-serif;
+        color: #33495f;
+    }
+    .blog-description {
+        height:25px;
+        width: 60vw;
+        font-size: 12px;
+        line-height: 1.1;
+        font-family: 'Dosis', sans-serif
+    }
+    .blog-author {
+        bottom: -20px;
+        font-size: 10px;
+        font-family: 'Dosis', sans-serif
+    }
+  }

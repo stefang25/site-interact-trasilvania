@@ -1,0 +1,19 @@
+.listOfProjects {
+    display: grid;
+    grid-template-columns: repeat(3, 0.2fr);
+    justify-content: center
+  }
+  
+  @media (max-width: 768px) {
+    .listOfProjects {
+      grid-template-columns: repeat(2, 1fr);
+      justify-content: center
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .listOfProjects {
+      grid-template-columns: repeat(1, 1fr);
+      justify-content: center
+    }
+  }

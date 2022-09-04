@@ -1,0 +1,28 @@
+.header {
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .header {
+        text-align: center;
+    }
+    .description {
+        margin-bottom: 80px;
+        margin-right: 150px;
+        margin-left: 150px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        font-size: 40px;
+    }
+    .description {
+        margin-bottom: 40px;
+        font-size: 16px;
+    }
+}
