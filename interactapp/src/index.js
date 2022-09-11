@@ -4,11 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { StyledEngineProvider } from '@mui/material/styles';
+import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.createRoot(document.querySelector("#root")).render(
   <React.StrictMode>
     <StyledEngineProvider injectFirst>
-      <App />
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
     </StyledEngineProvider>
   </React.StrictMode>
 );
