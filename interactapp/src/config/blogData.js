@@ -1,45 +1,99 @@
 export const blogList = [
     {
         id: 1,
-        title: "Test Blog",
-        //category?,
-        coverImg: '/assets/blogImages/cover/duck.png' ,
-        landscapeImg: '/assets/blogImages/landscape/landscape.jpg',
-        //description: "Lorem Ipsum...",
-        author: 'Author 1',
-        date: 'September 1, 2022'
+        title: "Validarea academică",
+        category: 'Viața cotidiană',
+        color: '#A19664',
+        coverImg: '/assets/blogImages/cover/validation.jpeg' ,
+        subtitle: "-frustrarea cotidiana a studentului-",
+        landscapeImg: '/assets/blogImages/landscape/validation.jpg',
+        description: "Toată lumea vrea să se simtă acceptat de cei din jur, fie că este vorba de complimentarea unui outfit sau a gusturilor muzicale, fie că ne referim la o îmbrățișare caldă de la părinți și o laudă la adresa unei note de 10 la biologie. Când cineva te remarcă, te acceptă, te simți special, distins, important. Validarea academică este și ea o formă de apreciere, des dorită printre elevii care (poate) au fost crescuți într-o (oarecare) competiție continuă și care (poate) au fost crescuți sub impresia că trebuie să câștige respectul sau (poate) iubirea celor din jur, și nu o merită pur și simplu pentru că sunt ființe umane(poate). Nevoia pentru validare academică poate fi văzută ca o motivație inofensivă de a studia. Elevii care simt această nevoie sunt deseori invidiați pentru rezultate. Dar această viziune nu este întocmai justă." ,
+
+        paragraph1: "Toată lumea vrea să se simtă acceptat de cei din jur, fie că este vorba de complimentarea unui outfit sau a gusturilor muzicale, fie că ne referim la o îmbrățișare caldă de la părinți și o laudă la adresa unei note de 10 la biologie. Când cineva te remarcă, te acceptă, te simți special, distins, important. Validarea academică este și ea o formă de apreciere, des dorită printre elevii care (poate) au fost crescuți într-o (oarecare) competiție continuă și care (poate) au fost crescuți sub impresia că trebuie să câștige respectul sau (poate) iubirea celor din jur, și nu o merită pur și simplu pentru că sunt ființe umane(poate). Nevoia pentru validare academică poate fi văzută ca o motivație inofensivă de a studia. Elevii care simt această nevoie sunt deseori invidiați pentru rezultate. Dar această viziune nu este întocmai justă.",
+        paragraph2: "Epuizarea, stresul și validarea academică sunt trei concepte cu care majoritatea dintre elevi sunt prea familiarizați. Dorința sufocantă pentru validare învață frecvent elevii că nu există loc pentru eșec sau neștiință. Astfel, omul înțelege de la o vârstă fragedă că trebuie să fie cel mai bun dintre cei mai buni, trebuie să lupte cu toată puterea contra tuturor(un cetățean model, cuminte și perfect productiv). În caz contrar, e fără valoare, e doar unul printre mulți alții. Dar de ce avem acest instinct de a ne suprasolicita doar pentru a simți că suntem inteligenți, remarcabili și respectabili? De ce simțim automat că nu suntem suficient, că nu ne ridicăm la standardele societății dacă nu suntem în agonie și istovire? ",
+        paragraph3: "Pentru destul de mulți dintre noi, totul a început de prin primară, când prietenii se întrebau reciproc ce notă au luat la test. Pentru alții, dorința ușor autodistructivă de a fi cel mai bun începe de la grădiniță, odată cu colectarea sfinților zâmbăreți roșii și ferirea de maleficele puncte negre. Comparația ni se imprimă în creier. Ne introduce într-un concurs pentru a obține cele mai mari note din clasă, apoi cele mai multe participări la concursuri, apoi cele mai mari punctaje la olimpiadă și tot așa. Elevul ajunge să nu se mai bucure de ce reușite dobândește pentru că se compară constant cu cei de mai sus. Elevul aspiră mereu spre mai mult și așa își invalidează orice rezultat bun obținut. Astfel, succesul altora devine un atac asupra inteligenței și capacității acestuia, devine aproape degradant. Elevul devine una cu nota, omul devine una cu reușitele și munca lui.  ",
+        paragraph4: "Dorința pentru aprobare academică ne stă în sânge, dar greșelile trebuie făcute și ele la un moment dat, e uman, face parte din procesul de învățare și dezvoltarea personală. Cel mai aspru critic al unui om este el însuși, iar depășirea fricii de eșec pe care ne-o înfiripăm (mai mult sau mai puțin) singuri este primul pas înspre maturizare și echilibrare. Sănătatea mintală nu ar trebui sacrificată pentru validarea academică.",
+        
+        author: 'Alexia Marchiș',
+        date: '16 Octombrie, 2022'
     },
 
     {
         id: 2,
-        //title: "Lorem Ipsum...",
-        //category?,
-        //coverImg: imagePath,
-        //landscapeImg: imagePath,
+        title: 'Recenzie carte - "O viață măruntă"',
+        category: 'Cultură',
+        color: '#CC704B',
+        coverImg: '/assets/blogImages/cover/a_little_life.jpg',
+        landscapeImg: '/assets/blogImages/landscape/a_little_life_l.jpg',
         //description: "Lorem Ipsum...",
-        author: 'Author 2',
-        date: 'September 2, 2022'
+        subtitle: " ",
+        description: "Una dintre cărțile care te va determina să îți privești propria viață cu alți ochi, este „O viață măruntă”, scrisă de Hanya Yanagihara. Ea prezintă în prim plan viața a patru adolescenți: Jude, Willem, Malcolm și JB, care s-au întâlnit în liceu și s-au împrietenit. Iubirea care îi leagă îi ajută să treacă peste încercările vieții, prietenia lor depășind bariera timpului. Cea mai mare parte a romanului e scrisă din perspectiva lui Jude, care se confruntă cu probleme psihice. Timp de mai mult de jumătate din lectură, cititorul nu știe nimic despre trecutul său sau despre motivul pentru care a ajuns să se simtă constant inferior, defect și nedemn de iubire. Totuși, povestea urmărește viața sa de zi cu zi, din prezent, în care el încearcă să se integreze în societate și în propriul grup de prieteni.",
+        paragraph1: "Una dintre cărțile care te va determina să îți privești propria viață cu alți ochi, este „O viață măruntă”, scrisă de Hanya Yanagihara. Ea prezintă în prim plan viața a patru adolescenți: Jude, Willem, Malcolm și JB, care s-au întâlnit în liceu și s-au împrietenit. Iubirea care îi leagă îi ajută să treacă peste încercările vieții, prietenia lor depășind bariera timpului. Cea mai mare parte a romanului e scrisă din perspectiva lui Jude, care se confruntă cu probleme psihice. Timp de mai mult de jumătate din lectură, cititorul nu știe nimic despre trecutul său sau despre motivul pentru care a ajuns să se simtă constant inferior, defect și nedemn de iubire. Totuși, povestea urmărește viața sa de zi cu zi, din prezent, în care el încearcă să se integreze în societate și în propriul grup de prieteni.",
+        paragraph2: "Unul dintre caracteristicile unice ale acestei cărți e modul în care este scrisă. Citind, ai impresia că stai de vorbă față în față cu autoarea, care îți spune povestea în același mod în care cineva povestește amintiri: haotic, sentimental și fără inhibiții. O poveste despre un om care încearcă să relaționeze cu oamenii, să se integreze și să se simtă „normal”, în timp ce dorește să își ascundă trecutul, să ocupe cât mai puțin spațiu, să nu reprezinte o povară pentru nimeni. Jude știe că, într-o prietenie, trebuie să și dai ca să primești. E conștient că, la un moment dat, trebuie să se deschidă lui Willem, Malcolm și JB, la fel cum ei s-au vulnerabilizat în fața lui. Totuși, Jude e diferit, fiindcă viața lui nu a fost ca a celorlalți. El se simte stânjenit de propriul trecut, simte că tot ce i s-a întâmplat a fost vina lui. Cu toate că mare parte din viața lui Jude e un mister pentru prietenii săi, ei sunt mereu înțelegători și nu pretind să li se dezvăluie nimic. Aceștia se mulțumesc cu simpla prezență a tovarășului lor.",
+        paragraph3: "În paginile sale, cartea oferă cititorului ocazia de a urmări personajele de-alungul vieții de adult, de a se atașa de ele și de a afla, încetul cu încetul, totul despre cine sunt acestea. Totuși, înainte de a începe lectura, e important ca cititorul să fie conștient că romanul atinge niște subiecte sensibile, precum: autovătămare, tulburări de alimentație, suicid, abuz, agresiune sexuală, consum de droguri, ableism. Trecutul lui Jude a rămas atât de bine ascuns cu un motiv, chiar el însuși încearcă să îl uite. Cu cât înaintezi în lectură, ești tot mai aproape de a descoperi adevărul. Însă, la un moment dat, ajugi să te întrebi dacă vrei, cu adevărat, să aflii. Văzând cât de scăzută e stima de sine a lui Jude, nu poți să nu te întrebi ce anume i-a putut face cineva pentru ca el însuși să se deteste așa tare. ",
+        paragraph4: "Pe lângă problemele de sănătate mintală, Jude suferă, de asemenea, de probleme fizice. La un moment dat, în trecutul său, a suferit un accident, despre care, de asemenea, nu vorbește cu nimeni. Întâmplarea i-a afectat picioarele, astfel că acesta simte o durere constantă în partea inferioară a trupului. Uneori, durerea e atât de mare, încât nu mai poate umbla și este nevoit să folosească scaunul cu rotile, un alt lucru pentru care el se detestă.",
+        paragraph5: "Într-o notă mai pozitivă, cel mai frumos aspect al acestei cărți e modul în care se descriu prietenia și dinamica relațiilor cu oamenii din jur. Cititorul trăiește fiecare emoție resimțită de personaje, astfel creionându-se o conexiune strânsă între lumea reală și universul cărții. Autoarea descrie fiecare sentiment al protagoniștilor în mod autentic. De aceea, e recomandat să citiți romanul de față cu discreție, deoarece această autenticitate specifică autorului se leagă și de emoțiile și trăirile negative, ceea ce ar putea fi tulburător pentru unii. Hanya Yanagihara a scris totul într-un detaliu remarcabil, aspect care face ca povestea să ajungă la sufletul oricui. Când o carte reușește să îți rămână în minte și în inimă mult timp după ce ai așezat-o înapoi pe raft, poate fi numită o capodoperă. Iar „O viață măruntă” e acest gen de carte.",
+
+        author: 'Mălina Bochiș',
+        date: '16 Octombrie, 2022'
     },
 
     {
         id: 3,
-        //title: "Lorem Ipsum...",
-        //category?,
-        //coverImg: imagePath,
-        //landscapeImg: imagePath,
-        //description: "Lorem Ipsum...",
-        author: 'Author 3',
-        date: 'September 3, 2022'
+        title: "Despre Graffiti Drop",
+        category: 'Interact Transilvania',
+        color: '#3A8891',
+        coverImg: '/assets/blogImages/cover/graffiti.jpg',
+        landscapeImg: '/assets/blogImages/landscape/graffiti.jpg',
+        description: "Numele primului proiect Interact Transilvania, Graffiti Drop, încorporează exact esența acestuia. Prin eveniment, ne-am dorit să aducem împreună oameni pasionați de artă, profesioniști sau începători, pentru a petrece o zi relaxantă plină de culoare sau, poate, pentru a descoperi o formă de artă nouă, la care nu au avut acces înainte. Totodată, scopul proiectului Graffiti Drop a fost și de a transmite mesajul potrivit căruia arta vine în diverse forme și, atâta timp cât nu se ajunge la vandalism, orice formă a ei este acceptată și încurajată. Cele mai mari capodopere sunt create când imaginația este lăsată să zboare, stropind cu emoție pe hârtie.",
+        paragraph1: "Numele primului proiect Interact Transilvania, Graffiti Drop, încorporează exact esența acestuia. Prin eveniment, ne-am dorit să aducem împreună oameni pasionați de artă, profesioniști sau începători, pentru a petrece o zi relaxantă plină de culoare sau, poate, pentru a descoperi o formă de artă nouă, la care nu au avut acces înainte. Totodată, scopul proiectului Graffiti Drop a fost și de a transmite mesajul potrivit căruia arta vine în diverse forme și, atâta timp cât nu se ajunge la vandalism, orice formă a ei este acceptată și încurajată. Cele mai mari capodopere sunt create când imaginația este lăsată să zboare, stropind cu emoție pe hârtie.",
+        paragraph2: "Într-o imagine mai practică, totuși, ce a însemnat Graffiti Drop și cum s-a desfășurat? Evenimentul s-a desfășurat la Institutul Francez Cluj-Napoca. În prima parte, a avut loc un vernisaj, unde membrii Comunității 156, cu care am colaborat, au prezentat câteva tablouri reprezentative. Expoziția a fost acompaniată de muzică și a fost deschisă pe tot parcursul atelierului. Trecând la a doua parte a evenimentului nostru, participanții au avut bucuria de a asista la o prezentare susținută de cei din Comunitatea 156 despre istoria Graffiti-ului și de a fi instruiți de profesorul și coordonatorul lor, domnul Mazerschi Georgian, cu privire la tehnica picturii cu spray-uri acrilice. În special pentru cei care nu au mai încercat înainte, această oportunitate a însemnat, poate, orientarea spre un nou tip de artă potrivit pentru ceea ce își doresc ei să exprime." ,
+        paragraph3: "Participanții au avut planșe pe care și-au lăsat imaginația să zboare și pe care, la final, le-au luat acasă. Mai apoi, fiecare a primit un placaj de lemn pe care a pictat, în tehnica nou învățată, o parte dintr-un tablou împărțit pe bucăți. La final, punând toate piesele la un loc, s-a format acel tablou, plin de culori și vibe-uri diferite, care, totuși, alcătuiau un întreg.",
+        paragraph4: "Pe tot parcursul atelierului au fost prezente tarabe cu obiecte handmade, aparținând diferitor small business-uri. Le adorăm munca și le admirăm creativitatea! Recomandăm să aruncați un ochi peste conturile lor de Instagram: @mothcrafts , @_carllaforrai_ , @mintaka_souljewellery.",
+        paragraph5: "La final, oamenii au plecat cu zâmbetul pe buze și cu sclipiri în ochi. Sperăm că mesajul și viziunea noastră asupra acestui tip de artă a ajuns la inimile artiștilor participanți! Reușita acestui eveniment nu a constat doar în partea de distracție și culturalizare, ci și în faptul că am strâns o sumă frumoasă de bani pentru cauza în jurul căreia a fost construit Graffiti Drop: Terapie prin Artă by Create.Act.Enjoy. Acesta este un proiect socio-cultural care pune la dispoziție oamenilor din spitale activități bazate pe artă, în scop recreativ și cultural, și care se ocupă cu dezvoltarea educației non-formale în rândul publicului tânăr.",
+        paragraph6: "Ne bucurăm de succesul acestui prim proiect și muncim pentru următoarele, sperăm noi, la fel de reușite. Pentru mai multe inside-uri în spatele procesului de organizare, unul dintre cei trei Project Managers ale atelierului de Graffiti, Alesia Baicu, a răspuns la câteva întrebări despre experiența sa:\n",
+        paragraph7: '---Cum ați venit cu ideea de "proiect despre graffiti?"---',
+        paragraph8: '„Ideea a pornit din încercarea noastră de a găsi o formă neconvențională și mai puțin uzuală de artă. Miriam și Raluca au venit cu ideea de graffiti, iar împreună am dezvoltat-o, ajungând la conceptul de atelier de graffiti.”',
+        paragraph9: '---Din câți oameni a fost formată echipa de proiect?---',
+        paragraph10: '„Echipa a fost formată din 15 persoane, însă am primit ajutor și de la restul membrilor Interact Transilvania. Bineînțeles, proiectul nu ar fi fost posibil fără implicarea celor din Comunitatea 156, care au participat în număr destul de mare.”',
+        paragraph11: '---Cine a lansat ideea și de ce?---',
+        paragraph12: '„Ideea a fost lansată de către colegele mele, Miriam și Raluca, care au vrut să găsească un mod mai puțin comun de artă și să prezinte, totodată, diferențele dintre arta stradală și vandalism.”',
+        paragraph13: '---Care a fost cel mai mare obstacol de-alungul drumului?---',
+        paragraph14: '„De-alungul drumului, cel mai greu obstacol a fost explicarea viziunii noastre și transpunerea ei în ceva concret. Aveam o mulțime de idei, unele mai puțin realizabile ca altele, iar uneori ne era dificil să le transpunem din imaginația noastră în realitate.”',
+        paragraph15: '---Ce v-a placut cel mai mult din experiența aceasta?---',
+        paragraph16: '„Cred că cel mai mult, și aici pot să vorbesc și în numele colegelor mele, ne-au plăcut interacțiunile din echipă. Am legat prietenii în cadrul acestui proiect, ne-am distrat, am râs și ne-am simțit bine, chiar și atunci când lucrurile nu mergeau cel mai bine. De aceea sunt recunoscătoare echipei, pentru toate momentele frumoase pe care o să mi le amintesc cu mare drag.”',
+        paragraph17: '---Cine v-a ajutat cel mai mult în timpul și perioada pregătirii proiectului?---',
+        paragraph18: '„Comunitatea 156 a fost cea care ne-a ajutat enorm, având mult mai multă experiență, iar membrii fiind dornici să realizeze un proiect deosebit. Coordonatorul Comunității, domnul profesor Mazerschi Georgian, a venit mereu cu idei foarte bune, observații critice, entuziasm și profesionalism, reușind să aducă la realitate viziunea noastră. De asemenea, le mulțumim enorm și celor de la Rotary Transilvania, care ne-au oferit suport din toate punctele de vedere.”',
+        paragraph19: '---Credeți că o să mai faceți proiecte asemănătoare în viitor?---',
+        paragraph20: '„Realizarea unui astfel de proiect necesită foarte mult timp și la fel de multă dedicare, motiv pentru care, cel puțin în această perioadă, nu m-aș mai putea implica la fel de mult. Însă într-un viitor mai îndepărtat aș vrea să mai coordonez un proiect de o asemenea complexitate, pentru că, în final, satisfacțiile pe care ți le aduce compensează toată munca și toate inconveniențele care pot apărea pe parcurs. Pentru mine, evenimentul acesta a însemnat învățare continuă, de aceea cred ca mi-ar plăcea să trec din nou prin acest proces.”',
+
+        
+
+        author: 'Mălina Bochiș',
+        date: '16 Octombrie, 2022'
     },
 
     {
         id: 4,
-        //title: "Lorem Ipsum...",
-        //category?,
-        //coverImg: imagePath,
-        //landscapeImg: imagePath,
-        //description: "Lorem Ipsum...",
-        author: 'Author 4',
-        date: 'September 4, 2022'
-    },
+        title: "Interact Transilvania --- Începuturi",
+        category: 'Interact Transilvania',
+        color: '#3A8891',
+        coverImg: '/assets/blogImages/cover/interact.jpeg',
+        landscapeImg: '/assets/blogImages/landscape/interact.jpg',
+        description: "Suntem un club de voluntariat adresat tinerilor dornici de a găsi soluții la problemele comunității noastre, prin intermediul propriilor pasiuni. Prin organizarea unor evenimente culturale în cadrul cărora vom promova creativitatea și spiritul de echipă, ne propunem îmbunătățirea relației actuale a comunității cu arta. Interact e o organizație non-guvernamentală și non-profit care țintește spre o lume mai bună",
+        paragraph9: "Cine suntem noi?",
+        paragraph10: "Suntem un club de voluntariat adresat tinerilor dornici de a găsi soluții la problemele comunității noastre, prin intermediul propriilor pasiuni. Prin organizarea unor evenimente culturale în cadrul cărora vom promova creativitatea și spiritul de echipă, ne propunem îmbunătățirea relației actuale a comunității cu arta. Interact e o organizație non-guvernamentală și non-profit care țintește spre o lume mai bună.",
+        paragraph11: "Ce ne propunem? ",
+        paragraph12: "Ne dorim să aducem arta, în toate formele ei, mai aproape de public. De-alungul anilor, arta a fost privită ca ceva, mai mult sau mai puțin, inaccesibil. Doar un artist adevărat ar fi putut-o creea și doar oamenii cu un nivel de studii înalte ar fi putut-o înțelege. Interact Transilvania dorește prezentarea artei dintr-o altă perspectivă: una accesibilă și diversă. Susținem că arta vine în diverse forme, din fundaluri culturale diferite, din mâinile unor oameni cu vaste experiențe de viață. Așadar, ea trebuie explorată și privită din mai multe unghiuri. De la pictură, poezie și arte plastice, la muzică, modă, dans, teatru și film, Interact Transilvania încurajază și valorifică orice exprimare artistică în aceeași măsură.\
+        Pentru că arta nu se limitează doar la propria persoană, ci unește un grup de oameni cu interese comune, dornici să se ajute reciproc și să se dezvolte, grupul nostru de voluntariat încearcă să strângă, din activitățile organizate, sume de bani în scop caritabil. Câteva exemple dintre cauzele pe care vrem să le susținem sunt protejarea mediului, egalitatea de șanse și drepturile omului. ",
+        paragraph13: "De ce arta și cultura? ",
+        paragraph14: "Arta ne unește. Noi, oamenii, suntem niște ființe sociale, care, în mod primordial, simțim nevoia de înțelegere, de apartenență la un grup. Prin diversele forme de exprimare, toate reunite sub denumirea de „artă”, noi reușim să ne înconjurăm de oameni ca noi, care să rezoneze cu cele mai autentice sentimente, gânduri și aspirații ale noastre, pe care le materializăm într-un mod creativ. Arta ne învață, în cel mai ușor și creativ mod, să ne îmbrățișăm diferențele și să ne exprimăm liber. \
+        De asemenea, oamenii provin din locuri cu diferite obiceiuri și au vaste experiențe de viață. În timp ce arta are puterea să ne unească, ea reușește și să ne arate alte culturi decât cea cu care suntem noi obișnuiți. Pentru a putea înțelege forma de artă a celuilalt, e important să ne informăm de contextul lor cultural. Interact Transilvania intenționează nu doar să ajute oamenii să se exprime, dar și să înțeleagă modul în care se exprimă ceilalți. ",
+        paragraph15: "Ce am făcut până acum și ce urmează să facem? ",
+        paragraph16: "Fiindcă știm că nu putem începe un proiect fără să ne facem propriul research înainte, ne-am dus la începutul acestei veri la București, pentru a ne întâlni cu doi membri Interact Cișmigiu. Fiind un Interact care ne-a inspirat de mai mult timp, aceștia sunt acum nașii noștri. Ei ne-au prezentat ce înseamnă Interact, cum funționează și cum se organizează. Ne-au oferit sfaturi despre cum să începem, cum să ne împărțim pe departamente pentru a lucra mai eficient și ne-au îndrumat călduros spre ceea ce urmează să fie un lung drum plin de peripeții, fapte bune și prieteni noi. De asemenea, am avut prilejul de a ne cunoaște colegii Interactieni la Conferința Districtuală de la Timișoara, dintre care o frumoasă parte ne-a încântat cu prezența la chartarea oficială a clubului nostru. În urmarea acestui moment definitoriu pentru Interact Transilvania am dat startul evenimentelor artistice-culturale cu scop caritabil. Primul nostru proiect este deja finalizat, puteți afla mai multe pe pagina noastră de Instagram @interacttransilvania. De asemenea, recent am organizat primele noastre recrutări, unde am cunoscut oameni de o creativitate și inventivitate excepțională. Ne bucurăm că aceștia fac, de acum, parte din echipa noastră și sperăm să-i îndrumăm în perioada lor de aspirație și mai departe. ",
+
+
+        author: 'Mălina Bochiș',
+        date: '16 Octombrie, 2022'
+    }
 ]

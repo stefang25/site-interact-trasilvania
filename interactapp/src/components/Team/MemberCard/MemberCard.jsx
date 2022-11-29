@@ -25,7 +25,8 @@ const MemberCard = ({
         </Card>
         <div style={{textAlign: 'center'}}>
           <h3>{name}</h3>
-          <div style={{}}>
+          <h2  style={{marginTop:-10, fontSize:24}} >{role}</h2>
+          <div style={{marginTop:-10}}>
             <InstagramIcon style={{color: '#D41367', marginBottom:-7, marginRight:5}}/>
             <a href={instagramLink} style={{textDecoration: 'none', color: '#33495f', display:'inline-block'}}>{instagram}</a>
           </div>

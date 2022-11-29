@@ -1,6 +1,6 @@
 .listOfProjects {
     display: grid;
-    grid-template-columns: repeat(3, 0.2fr);
+    grid-template-columns: repeat(3, 0fr);
     justify-content: center
   }
   

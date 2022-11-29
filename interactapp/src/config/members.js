@@ -1,27 +1,38 @@
 export const membersList = [
     {
         id:1,
-        name: "Catalin Maruta",
-        image: '/assets/members/mamaruta.jpg',
-        instagram: 'catalin_maruta',
-        instagramLink: 'https://www.instagram.com/catalin_maruta'
+        name: "Daria Rodila",
+        role: "Presedinte",
+        image: '/assets/members/daria.jpg',
+        instagram: 'dariarodila',
+        instagramLink: 'https://www.instagram.com/dariarodila'
     },
 
     {
         id:2,
-        name: "Cabral",
-        image: '/assets/members/mamaruta.jpg'
+        name: "Sebastian Stoenoiu",
+        role:"Vicepresedinte",
+        image: '/assets/members/sebi.jpeg',
+        instagram: 'sebastianstoenoiu',
+        instagramLink: 'https://www.instagram.com/sebastianstoenoiu'
+
     },
 
     {
         id:3,
-        name: "Andreea Balan",
-        image: '/assets/members/mamaruta.jpg'
+        name: "Alina Ardeleanu",
+        role:"Secretar",
+        image: '/assets/members/alina.jpeg',
+        instagram: 'alina.ardeleanu',
+        instagramLink: 'https://www.instagram.com/alina.ardeleanu'
     },
 
     {
         id:4,
-        name: "Loredana Groza",
-        image: '/assets/members/mamaruta.jpg'
+        name: "Adela Bolba",
+        role:"Trezorier",
+        image: '/assets/members/adela.jpeg',
+        instagram: 'whos__adela',
+        instagramLink: 'https://www.instagram.com/whos__adela'
     }
 ]

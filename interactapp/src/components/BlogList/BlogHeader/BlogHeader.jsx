@@ -4,8 +4,8 @@ const BlogHeader = () => {
   return (
     <div>
 
-        <h1 className='header'>Interact Blog</h1>
-        <p className='description'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum aliquam saepe sequi, quia ab dignissimos ullam quod? In velit ipsam laboriosam facilis ipsum magni? Corrupti natus accusamus vel tenetur eveniet!</p>
+        <h1 style={{marginTop:200}} className='header'>Interact Blog</h1>
+        <p className='description'>Din dorința de a ne extinde poveștile și gândurile cu cei din jurul nostru am creat blogul Interact Transilvania, care are trei obiecte de interes: cultura, viața cotidiana și Interact Transilvania.</p>
 
     </div>
   )

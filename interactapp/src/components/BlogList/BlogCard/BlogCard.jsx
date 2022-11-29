@@ -29,7 +29,9 @@ const BlogCard = ({
     coverImg,
     landscapeImg,
     id,
-    date
+    date,
+    category,
+    color
   },
 }) => {
   return (
@@ -58,14 +60,19 @@ const BlogCard = ({
 
               <CardContent className='card-text'>
                 
-                <Typography variant="h1" className='blog-name' style={{ lineHeight:1, position:'relative', fontWeight:'bolder'}}>
-                {lorem.generateSentences(1)}
+                <Typography variant="h1" className='blog-name' style={{ lineHeight:1, position:'relative', fontWeight:600}}>
+                {title}
                 </Typography>
+                <Card className='blog-category' style={{backgroundColor: `${color}` , width:'fit-content'}}>
+                  <Typography className='category-text' style={{paddingRight:10, paddingLeft:10, color: '#e6d6c2', fontFamily: 'Fraunces'}}>
+                    {category}
+                  </Typography>
+                </Card>
                 <Typography className='blog-description'  variant='h3' style={{}}>
-                  {lorem.generateSentences(20)}
+                  {description}
                 </Typography>
                 <Typography variant='body2'className='blog-author' style={{ position: 'relative'}}>
-                  written by {author}
+                  scris de {author}
                 </Typography>
               </CardContent>
 

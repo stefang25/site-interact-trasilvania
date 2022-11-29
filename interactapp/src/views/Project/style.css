@@ -11,7 +11,7 @@
 }
 
 .project-image {
-    width: 350px;
+    width: 25vw;
     border-radius: 5px;
     margin-bottom: 30px
 }
@@ -24,14 +24,23 @@
     margin-bottom: -10px;
 }
 
-@media (min-width: 768px) {
+
+.splitscreen {
+    margin-top: 150px;
+}
+
+@media (min-width: 1000px) {
     .splitscreen {
         display: flex;
         flex-direction: row;
-        width: 80%;
+        width: 100%;
+        margin-right: 50px;
+        margin-left: 50px;
+        
     }
-    .left {
-        width: 60%;
+    .left-project {
+        width: 80%;
+        margin-right: 20%;
     }
     .project-tag {
         text-align: start;
@@ -39,8 +48,8 @@
     }
 
 
-    .right {
-        width: 40%;
+    .right-project {
+        width: 20%;
         margin-top: 5%;
     }
 
@@ -60,5 +69,8 @@
         width: 99%;
         margin-left: auto;
         margin-right: auto;
+    }
+    .splitscreen {
+        height:2200px !important
     }
 }

@@ -1,22 +1,26 @@
 
 .container {
-    margin: 8%;
-    font-family: 'Dosis', sans-serif
+    padding-right: 8%;
+    padding-left:8%;
+    padding-bottom: 8%;
+    font-family: 'Fraunces', serif;
+    color: #3E536F;
 }
 
+
 h1 {
-    color:#306497;
+    color:#3E536F;
     font-weight: 600;
     font-size: 50px;
 }
 
-h3 {
-    color: #33495f;
+h3, h6 {
+    
     font-weight: 400;
 }
 
 p {
     font-weight:lighter;
-    color:#98AFC7;
+    color:#3E536F;
     font-size: larger;
 }

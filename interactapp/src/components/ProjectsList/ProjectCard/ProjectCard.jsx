@@ -18,14 +18,13 @@ const lorem = new LoremIpsum({
 
 const ProjectCard = ({
   project: {
-    description,
     title,
     coverImg,
     id
   }
 }) => {
   return (
-    <div className='container'>
+    <div className='container' style={{padding:0+"%"}}>
     <Card className='project-card'
       style={{
         borderRadius: 14,
@@ -40,11 +39,11 @@ const ProjectCard = ({
 
     <CardActionArea className='project-action' component={RouterLink} to={`/projects/${id}`}>
 
-    <Card className='project-name'>
+    <Card className='project-name' >
 
           <CardContent style={{marginTop:5}}>
-              <Typography variant="h6" className='project-title' style={{lineHeight:1.2, fontWeight:'bolder', fontSize:16, textAlign: "center"}}>
-                {lorem.generateSentences(1)}
+              <Typography variant="h6" className='project-title' style={{lineHeight:1.2, fontSize:16, textAlign: "center"}}>
+                {title}
               </Typography>
             </CardContent>
 

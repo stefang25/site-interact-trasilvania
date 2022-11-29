@@ -5,12 +5,27 @@
 
 @media (min-width: 768px) {
   .project-card {
-    width:300px;
-    height:350px;
+    width:18vw;
+    height:25vw ;
   }
   .image {
-    width:300px;
-    height:350px;
+    width:30vw;
+  }
+
+  .project-action {
+    position: absolute;
+    margin-top: 18vw;
+    width:16vw;
+    height:4.5vw;
+  }
+
+  .project-name {
+    width:16vw;
+    height:4.5vw;
+  }
+
+  .project-title {
+    font-size: 1.2vw !important;
   }
 
 }
@@ -24,11 +39,22 @@
     width:60vw;
     height:85vw;
   }
+
+  .project-action {
+    position: absolute;
+    margin-top: 30vh;
+    width:225px;
+    height:50px;
+  }
+
+  .project-name {
+    width:225px;
+    height:50px;
+  }
+
 }
 
 .project-name {
-  width:225px;
-  height:50px;
   border-radius: 16px;
   display: flex; 
   flex-direction:column;
@@ -37,11 +63,7 @@
 
 .project-action {
   display: flex;
-  width:225px;
-  height:50px;
   border-radius: 16px;
-  position: absolute;
-  margin-top: 275px;
   display: flex; 
   flex-direction:column;
   justify-content: center;
@@ -49,7 +71,7 @@
 }
 
 .project-title {
-  font-family: 'Dosis', sans-serif;
-  color:#33495f;
-  font-weight: 300;
+  font-family: 'Fraunces', serif;
+  color:#3E536F;
+  font-weight: 600;
 }

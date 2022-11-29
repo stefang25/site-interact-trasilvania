@@ -12,18 +12,19 @@
     }
     .card-image {
       width: 190px;
-      height:190px;
+      height:210px;
       margin:5px;
       border-radius: 7px;
     }
     .card-action {
-        margin-top: 20px;
+        margin-top: 30px;
         width:1000px;
-        height:200px;
+        height:220px;
     }
     .blog-card {
         width:1000px;
-        height:200px;
+        height:220px;
+        background-color:rgba(217, 229, 242, 0.285);
     }
     .card-text {
         width:700px;
@@ -34,18 +35,27 @@
         font-size: 24px;
         margin-top:10px;
         margin-bottom: 20px;
-        font-family: 'Dosis', sans-serif
+        font-family: "Fraunces";
     }
     .blog-description {
         height:70px;
         width:700px;
-        font-family: 'Dosis', sans-serif;
+        font-family: "Fraunces";
         font-size: 15px;
     }
     .blog-author {
-        margin-top: 20px;
+        margin-top: 10px;
         font-size: 13px;
-        font-family: 'Dosis', sans-serif
+        font-family: "Fraunces";
+    }
+    .blog-category {
+        height: 25px;
+        margin-bottom: 10px;
+        border-radius: 20px;
+    }
+    .category-text {
+        font-size: 15px;
+        margin-top: 2px;
     }
   }
 
@@ -66,13 +76,22 @@
     }
     .card-text {
         width:300px;
-        font-family: 'Dosis', sans-serif
+        font-family: 'Fraunces', serif
+    }
+    .blog-category {
+        height: 25px;
+        margin-bottom: 10px;
+        border-radius: 20px;
+    }
+    .category-text {
+        font-size: 15px;
+        margin-top: 2px;
     }
   }
   
   @media (max-width: 600px) {
     .blog-description {
-        -webkit-line-clamp: 2;
+        -webkit-line-clamp: 3;
     }
     .card-image {
         width: 90px;
@@ -92,24 +111,31 @@
     }
 
     .blog-name {
-        margin-top: -7px;
         margin-bottom: 3px;
         font-size: 16px;
         height: 35px;
         width: 60vw;
-        font-family: 'Dosis', sans-serif;
+        font-family: 'Fraunces', serif;
         color: #33495f;
     }
     .blog-description {
-        height:25px;
+        height:40px;
         width: 60vw;
         font-size: 12px;
         line-height: 1.1;
-        font-family: 'Dosis', sans-serif
+        font-family: 'Fraunces', serif
     }
     .blog-author {
-        bottom: -20px;
+        bottom: -10px;
         font-size: 10px;
-        font-family: 'Dosis', sans-serif
+        font-family: 'Fraunces', serif
+    }
+    .blog-category {
+        height: 18px;
+        margin-bottom: 10px;
+        border-radius: 20px;
+    }
+    .category-text {
+        font-size: 10px;
     }
   }

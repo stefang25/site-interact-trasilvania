@@ -19,6 +19,8 @@ const lorem = new LoremIpsum({
 
 
 const Project = () => {
+
+
     const { id } = useParams();
     const [project, setProject] = useState(null);
 
@@ -33,36 +35,38 @@ const Project = () => {
         }
     }, []);
   return (
-    <div className='splitscreen'>
-        <div className='left'>
-          <h1 className='project-tag'>{project?.title}</h1>
 
-          <div style={{display: 'flex'}}>
-            <LocationOnOutlinedIcon className='icon' />
-            <p className='about'>{project?.location}</p>
+
+      <div className='splitscreen'>
+          <div className='left-project'>
+            <h1 className='project-tag'>{project?.title}</h1>
+
+            <div style={{display: 'flex'}}>
+              <LocationOnOutlinedIcon className='icon' />
+              <p className='about'>{project?.location}</p>
+            </div>
+
+            <div style={{marginTop: -10, display: 'flex'}}>
+              <CalendarMonthOutlinedIcon  className='icon'/>
+              <p className='about'>{project?.dateTime}</p>
+            </div>
+
+            <div>
+              <h2 className='field' >Descriere:</h2>
+              <h3 style={{textAlign:'justify'}} >{project?.description}</h3>
+              <h2 className='field' >Scopul proiectului:</h2>
+              <h3 style={{textAlign:'justify'}}>{project?.vision}</h3>
+            </div>
           </div>
 
-          <div style={{marginTop: -10, display: 'flex'}}>
-            <CalendarMonthOutlinedIcon  className='icon'/>
-            <p className='about'>{project?.dateTime}</p>
+          <div className='right-project'>
+            <div>
+              {project?.landscapeImages.map(image => (
+                <img src={image} className='project-image'/>
+              ))}
           </div>
-
-          <div>
-            <h2 className='field' >Descriere:</h2>
-            <h3>{project?.description}{lorem.generateSentences(5)}</h3>
-            <h2 className='field' >Scopul proiectului:</h2>
-            <h3>{project?.vision}{lorem.generateSentences(7)}</h3>
           </div>
-        </div>
-
-        <div className='right'>
-          <div>
-            {project?.landscapeImages.map(image => (
-              <img src={image} className='project-image'/>
-            ))}
-        </div>
-        </div>
-    </div>
+      </div>
   )
 }
 
