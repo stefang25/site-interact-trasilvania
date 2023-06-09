@@ -1,8 +1,9 @@
 .listOfProjects {
-    display: grid;
+    display: grid; 
     grid-template-columns: repeat(3, 0fr);
     justify-content: center
   }
+
   
   @media (max-width: 768px) {
     .listOfProjects {

@@ -16,16 +16,21 @@
 
 @media (min-width: 768px) {
     .image-card {
-      width:800px;
-      height:400px;
+      width:70%;
+      height:500px;
     }
     .card-img {
-      width:800px;
-      height:400px;
+      width:100%;
+      height:500px;
     }
     .article {
-        margin-right: 3%;
-        margin-left: 3%;
+        margin-right: 10%;
+        margin-left: 10%;
+        font-size: 20px;
+    }
+    .poetry {
+      margin-right: 10%;
+      margin-left: 10%;
     }
     .subtitle-article {
       margin-left: 10px;
@@ -36,6 +41,11 @@
   }
   
   @media (max-width: 768px) {
+
+    .title-article {
+      margin-top: 50px;
+      font-size: 36px !important;
+    }
     .title {
     margin-top: 30px;
     font-size: 20px !important;

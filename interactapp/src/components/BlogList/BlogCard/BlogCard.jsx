@@ -23,15 +23,16 @@ const lorem = new LoremIpsum({
 
 const BlogCard = ({ 
   blog: {
-    description,
+    paragraph1,
     title,
     author,
     coverImg,
     landscapeImg,
     id,
+    description,
     date,
     category,
-    color
+    color,
   },
 }) => {
   return (

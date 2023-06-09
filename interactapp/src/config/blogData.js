@@ -1,9 +1,558 @@
 export const blogList = [
     {
-        id: 1,
-        title: "Validarea academică",
-        category: 'Viața cotidiană',
+        id:1,
+        title: `Voluntariatul – manifestare a altruismului?`,
+        category: 'Social',
         color: '#A19664',
+        time: '10 minute',
+        coverImg:'/assets/blogImages/cover/volunteering.jpg',
+        landscapeImg:'/assets/blogImages/landscape/volunteering.jpg',
+        description: `O sferă comună de interes în lumea tinerilor de liceu și facultate este participarea în activități de voluntariat. Fie că e vorba de anumite cluburi cu o temă de interes specifică, sau pur și simplu festivaluri, concerte și maratoane, organizatorii nu duc lipsă de tineri energici, plini de viață și dornici să ajute, să se infiltreze în comunitate și să cunoască oameni noi.`,
+        paragraph1: `O sferă comună de interes în lumea tinerilor de liceu și facultate este participarea în activități de voluntariat. Fie că e vorba de anumite cluburi cu o temă de interes specifică, sau pur și simplu festivaluri, concerte și maratoane, organizatorii nu duc lipsă de tineri energici, plini de viață și dornici să ajute, să se infiltreze în comunitate și să cunoască oameni noi.`,
+        paragraph2: `În fiecare an, după ce apar formularele de înscriere pentru voluntari, zile întregi văd elevii din jurul meu vorbind despre asta, completând acele Google Forms și sperând că și-au descris experiența anterioară suficient de detaliat și pasiunea suficient de poetic încât să fie acceptați. În aceste perioade, se creează o atmosferă veselă în clase și grupurile de prieteni. Cumva, amintirile edițiilor trecute și așteptarea ediției viitoare aduc vacanța de vară mai aproape de sufletele elevilor și studenților copleșiți de simulări sau sesiuni.`,
+        paragraph3: `În termeni mai generali, voluntariatul reprezintă comunitate, socializare, experiență și distracție. Cu toate acestea, viața de voluntar aduce inevitabil cu ea și alte aspecte: stres, responsabilitate, dispută, oboseală. Însă, de obicei, aspectele pozitive le compensează pe cele mai puțin memorabile. Iar, peste un an, când apar noile formulare de înscriere, nimeni nu se gândește la o mică ceartă cu un coechipier sau la orele nedormite, ci la amintirile cu care a rămas și la prietenii pe care i-a dobândit.`,
+        paragraph4: `Am întrebat câțiva prieteni despre viziunea lor asupra voluntariatului, pentru a mă ajuta să îmi formez o idee mai largă și să înțeleg subiectul din mai multe perspective. Iată răspunsurile lor:`,
+        paragraph5: `„Voluntariatul poate fi foarte fain, îți permite să vezi lucrurile dintr-un unghi diferit, să cunoști oameni noi predispuși la a ajuta lumea și all around poate fi o experiență foarte frumoasă. Cel mai mult cred că depinde, însă, de organizatorul voluntariatului. Poate sună contraintuitiv, dar chiar există organizatori care te țin în ședințe interminabile de training și ajung să se enerveze, spunând că ei, de fapt, nu au nevoie de niciun voluntar. Dar există și organizatori foarte faini, care te fac să îți dorești să mergi la cat mai multe voluntariate. În final, cred că mereu e cel mai bine să încerci. În cel mai rău caz, pleci de acolo doar cu experiență. În cel mai bun, cu amintiri de neuitat.”`,
+        paragraph6: `„Am văzut mereu voluntariatul ca o activitate folositoare și interesantă pe care o pot face în timpul liceului. Mă gândeam wow... ce tare... să experimentez ceva nou, să dau o mână de ajutor și, pe lânga asta, să și cunosc oameni! Pot spune că am rămas cu aceste impresii după experințele pe care le-am avut, dar, bineînțeles, asemenea oricărui lucru în viață, și voluntariatul se simte diferit din interior. M-a ajutat să înțeleg că e nevoie să fii jos pentru a ajunge sus, m-a scos din zona de confort și mi-a oferit șansa de a lucra cu oameni. Momentele mai puțin plăcute au existat și ele, dar am încercat să mă acomodez și să le accept. Programele de voluntariat nu oferă mereu atât cât promit, iar frustarea a fost un sentiment cu care m-am confruntat. Per total, aș recomanda voluntariatul, cu mențiunea că are anumite avantaje, dar și dezavantaje, și e bine sa fim conștienți de ele.`,
+        paragraph8: `„Fiind voluntar la festivaluri și alte evenimente, afli că niciunul dintre acestea nu e roz bombon cu picățele. Nimic nu e simplu și perfect, așa cum pare din prisma unui spectator. Afli că, uneori, lucrurile se complică atât de tare, mai ales pe ultima sută de metri, încât nu vezi cum s-ar putea rezolva totul. Totuși, oamenii din exterior privesc evenimentele admirativ, inconștienți de câtă muncă voluntară stă în umbra acestora. Până nu o simți pe pielea ta, nu poți înțelege cu adevărat în ce constă această experiență. Fiind voluntar, înveți că nicio muncă nu e ușoară și, de aceea, trebuie să le respectăm deplin pe toate. Fiind voluntar… înveți că ai o întreagă comunitate dispusă să ajute la formarea unei societăți mai implicate, mai realiste, mai responsabile și mai puternice.”`,
+        paragraph10: `„O vedeam pe soră-mea cum se ducea la Crucea Roșie de dimineața până seara, cum chiulea de la școală ca să lucreze mai mult acolo, cum a cunoscut acolo băiatul cu care a avut cea mai lungă relație de până acum. O priveam cum îmi arăta mândră diploma ei de prim ajutor și o ascultam când îmi povestea de cât de mișto e. În clasa a V-a mi-a zis să încerc și eu să fac voluntariat acolo o zi și nu mi-a plăcut deloc! Nici nu avea cum să-mi placă, pentru că eram înconjurată de oameni cu cam șase ani mai mari decât mine. Nu se simțea deloc ca ceva fun, unde să cunoști oameni și să te simți folositor. Din experiența asta, înțeleg că cel mai important lucru, pentru mine, în ceea ce privește voluntariatul, sunt colegii. Aș putea face orice, atâta timp cât îmi plac oamenii de lângă mine. Este, oarecum, ca un cheat-code ca să-ți faci prieteni. Ei fac voluntariatul să nu se simtă ca școala, ca munca. În plus, mai e gândul că o să-mi cunosc iubirea vieții mele, așa cum a făcut-o soră-mea. Nu s-a întâmplat încă, dar mai este timp!”`,
+        paragraph12: `„As putea spune că voluntariatul este unul dintre hobby-urile mele, cel mai probabil datorită experiențelor mele plăcute de la evenimentele la care am fost voluntară, precum și rolurilor pe care le-am îndeplinit. Mereu mi-a plăcut să ajut acolo unde a fost nevoie, iar voluntariatul îmi oferă această posibilitate. Totuși, în cadrul mai multor voluntariate, am întâlnit dezinteres și neimplicare din partea unor participanți, dar, deși acest lucru mă deranja la început, am ajuns la concluzia că voluntariatul pe care eu îl fac e despre mine și implicarea mea. Astfel, acesta rămâne, pentru mine, o activitate care mă destinde și mă face fericită.”`,
+        paragraph14: `Un aspect comun întâlnit în viziunile lor e faptul că voluntariatul e o experiență complexă și că, prin voluntariat, ajungi să cunoști oameni noi. Până la urmă, unele dintre cele mai mari nevoi ale omului sunt comunicarea și sentimentul de apartenență la un grup. Astfel, cel mai valoros aspect din lumea voluntariatului este faptul că nimeni nu e lăsat pe dinafară, că toți au ceva de făcut, care îi ajută să se simtă utili și doriți. Pe lângă acest aspect, sentimentul dat de conștientizarea faptului că acțiunile lor au un impact pozitiv asupra vieții cuiva e ceea ce oferă oamenilor dorința de a continua. Ce e frumos la generațiile tinere e energia lor și visul de a fi schimbarea, de a ajuta societatea să devină un loc mai bun, de a-și face vocea auzită. Adolescența e perioada în care tinerii vor să experimenteze, să își dea seama la ce se pricep, ce fel de oameni își doresc să aibă în jurul lor și, cel mai important, e perioada în care au vârsta necesară să poată face tot ceea ce își doresc și să ajute pe cei din jurul lor, fără să se gândească încă la bani. Tinerii au flacăra vieții aprinsă, își doresc să facă parte dintr-o comunitate unită și să ajute, chiar dacă eforturile lor nu sunt răsplătite printr-o valoare monetară, menită să ofere doar o mulțumire de sine aparentă. Au încă credința că viața e despre apartenență la grup și socializare. Adolescența e cea mai frumoasă parte a vieții tocmai din aceste motive. Unii aleg să ducă cu ei mai departe aceste aspecte, chiar și în viața de adult, și continuă să participe voluntar la organizarea evenimentelor preferate. Alții sunt loviți de griji mult prea tare ca să mai aibă energia necesară să își amintească bucuria adusă de munca de voluntariat sau satisfacția adusă de acțiunea de a ajuta doar de dragul de a ajuta.`,
+        paragraph16: `Totuși, există și un aspect ascuns mai neplăcut legat de această dorință aprigă a tinerilor de a face voluntariat și a apărut mai mult în ultimii ani, odată cu popularizarea ideii de studiu în străinătate. Cum tot mai mulți adolescenți își doresc un viitor mai bun, se gândesc, în perioada liceului sau a facultății, la studiul în afară, la aplicarea la universități de top, cunoscute, care să le ofere educația dorită și stima socială dată de sentimentul pe care îl au când spun rudelor că pleacă din țară pentru studiu. Însă procesul de aplicare e unul anevoios și solicitant. Elevul trebuie să își creeze un anumit profil care să îndeplinească standardele universității la care vrea să intre. Pe lângă rezultate excepționale și un „personal statement” de impact, e nevoie și de un CV lung și impresionant. Este cunoscut faptul că implicarea în cât mai multe activități de voluntariat „dă bine” atât în CV, cât și la interviuri de angajare. Astfel, pentru cei familiarizați cu lumea voluntariatelor, bănuiesc că nu e un lucru suprinzător când vă întâlniți cu persoane care par lipsite de interes, care nu par să își dorească să se afle acolo, dar care totuși parcă se înscriu să participe peste tot. Ei reprezintă acel tip de oameni care nu ascund faptul că fac voluntariat doar pentru diplomă, doar pentru a-și mări lista de activități extracurriculare din CV. Și nu puteți să nu vă gândiți că e, oarecum, trist. Fiindcă, dacă pentru unii oameni voluntariatul reprezintă unitate, socializare, experiență, pentru alții înseamnă doar ceva ce trebuie bifat de pe lista pentru aplicarea la studiu în străinătate.`,
+        paragraph18: `Altfel, cu cât te implici mai mult în activități de voluntariat și cu cât ajungi să faci parte din mai multe cluburi sau organizații non-guvernamentale, cu atât întâlnești mai mulți oameni de acest fel. Uneori, nu are neapărat relevanță ce anume îi motivează să se afle acolo, pentru că își dau interesul să rezolve cât se poate de bine sarcinile pe care le au de făcut. Alteori, te afectează și pe tine, pentru că trebuie, până la urmă, să lucrați într-o echipă, iar ei nu se străduiesc destul și fac totul cu superficialitate, contribuind doar cu un minim de efort, cât să își poată primi diploma. Sau, uneori, îți dai seamă că până și liderii unei organizații pot fi conduși de aceeași dorință de a-și crea un profil exemplar pe foaie.`,
+        paragraph20: `Dar ce e, în opinia mea, cel mai trist, e faptul că acești oameni, care văd voluntariatele doar ca aspectul care le îmbunătățește CV-ul, ajung să creadă că doar oamenii ca ei sunt demni de respect și încredere, fiindcă asta demonstrează că le pasă de viitorul lor și au același vis măreț de a pleca din țară. Și e greu să comunici sau să devii apropiat cu un coechipier care nu înțelege cum tu ai luat decizia de a face voluntariat doar din plăcere și nu rezonează cu ideea că tu nu îți dorești ca viața ta de adolescent să se rezume la productivitate, Google Meet-uri și tabele cu task-uri care nu îți aduc satisfacție sau fericire și care nu îți stârnesc interesul.`,
+        paragraph22: `Însă, într-o privire de ansamblu, faptul că sistemul funcționează în acest fel a adus și beneficii, deoarece, chiar dacă unele persoane nu fac voluntariat din motive altruiste, măcar există o forță de muncă și o cerere mare, astfel că obiectivul de a ajuta comunitățile defavorizate sau de a aduce o schimbare e atins. „Scopul scuză mijloacele” a fost o frază pe care am auzit-o, la un moment dat, în copilăria mea târzie. Pe atunci nu am înțeles-o. Dar, cu timpul, a ajuns să îmi tot apară în minte și să mă facă să mă gândesc la anumite probleme legate de etică și la întrebări fără răspuns. E oare nevoia de muncă voluntară în vederea îmbunătățirii societății un scop suficient de bun încât să fie în regulă să se exploateze și idealizeze beneficiile acțiunilor de voluntariat? E un motiv suficient de puternic care să facă să nu conteze ce anume a îndemnat voluntarul să participe la acțiuni de voluntariat în primă fază? Dacă motivul din spatele muncii voluntare e unul egoist, se mai poate considera voluntariatul un act de altruism?`,
+        paragraph24: `Până la urmă, toate aspectele vieții sunt presărate atât cu experiențe pozitive, cât și negative. Dar poate nu e de niciun ajutor să stăm să analizăm în detaliu aspectele care, la suprafață, arată bine. Poate e util și convenabil să continuăm să definim voluntariatul cu ajutorul termenilor comunitate, socializare, experiență, distracție și să profităm de amintirile cu care rămânem făcând ceva ce ne place, împreună cu oamenii pe care ajungem să îi cunoaștem pe parcurs și cu care rezonăm. Poate, până la urmă, ceea ce contează este să aducem un aport pozitiv în societate, oricare ar fi motivul pentru care o facem.`,
+
+        author: "Mălina Bochiș",
+        date: "7 Iunie, 2023"
+
+    },
+
+    {
+        id:2,
+        title: `Recenzie carte - “Ca și cum nimic nu s-ar fi întâmplat”`,
+        category: 'Cultură',
+        color: '#CC704B',
+        time: '7 minute',
+        coverImg:'/assets/blogImages/cover/alina_nelega.jpg',
+        landscapeImg:'/assets/blogImages/landscape/alina_nelega.jpg',
+        description: `Romanul “Ca și cum nimic nu s-ar fi întâmplat” scris de Alina Nelega și publicat în anul 2019, abordează existența femeii într-un stil reminiscent teatral. Cartea urmărește trăirile tinerei Cristina de la sfârșitul anilor ‘70 și până aceasta se învăluie în incertitudine pentru totdeauna.`,
+        paragraph1: `Romanul “Ca și cum nimic nu s-ar fi întâmplat” scris de Alina Nelega și publicat în anul 2019, abordează existența femeii într-un stil reminiscent teatral. Cartea urmărește trăirile tinerei Cristina de la sfârșitul anilor ‘70 și până aceasta se învăluie în incertitudine pentru totdeauna.`,
+        paragraph2: `Cristina este pasionată de literatură, de aceea după liceu decide să urmeze Facultatea de Litere. Pe perioada facultății, protagonista este îndurerată de faptul că prietena sa cea mai bună, Nana, care este totodată și interesul ei romantic, se află departe de ea. Nana este la Facultatea de Teatru, în București. După terminarea facultății, Cristina este deja căsătorită cu fratele Nanei, Radu, având și un băiat pe nume Ștefan. Ea este repartizată ca profesoară de română într-un sat cu o populație predominant maghiară, unde locuiește singură, separată fiind de Radu și Ștefan. Între timp, Nana duce o viață împlinită pentru o actriță din vremea aceea. În acest punct, Nana și Cristina nu mai sunt apropiate, deși continuă să țină una la cealaltă. Ruptura dintre ele s-a produs în momentul în care Cristina s-a căsătorit cu fratele Nanei. Fiind singură la București și cu nimeni drag alături, Nana decide să fugă din țară. Aceasta ajunge în Franța unde simte remușcări pentru că a lăsat-o pe Cristina în urmă. În paralel, în România, Cristina rămâne mamă singură, fără susținerea familiei. Munca o trimite la capitală unde se confruntă cu Securitatea și un trai de subzistență.`,
+        paragraph3: `Acest roman prezintă abuzurile și neregulile pe care le-au avut de suportat femeile în era socialistă, atât în România, cât și în Vest. Lipsa autonomiei este o temă recurentă pe parcursul acestei lecturi, evidențiind culmile disperării protagonistei odată cu răzvrătirea sa interioară, preconizată de o viață obedientă. Mai mult decât atât, Alina Nelega aduce în atenția publicului cum nici viața de estic în Vest nu este ideală, prin intermediul Nanei. Aceasta este exploatată psihologic și sexual pentru beneficiul firului narativ vestic. Prezența-i ilegitimă o face o țintă ușoară pentru propaganda împotriva Blocului. Privarea drepturilor femeii și conceptul aproape inexistent de exprimare a nevoilor feminine sunt subtexte aluzive transpuse în operă prin tenacitate și metafore ocolitoare ce conturează atmosfera fioroasă a cărții.`,
+        paragraph4: `Alina Nelega încheie povestea Cristinei într-un mod onorifico-omagial: “vâslind ritmic din poalele paltonului, nu simte niciun regret, nicio durere, bucuria o cuprinde, e relaxată și fericită, gata, s-a terminat, acum nu o mai poate atinge nimeni și se grăbește să dispară înspre soarele încețoșat care a ajuns deja deasupra orașului.”`,
+
+        author: "Iasmina Constantin",
+        date: "7 Iunie, 2023"
+
+    },
+
+    {
+        id:3,
+        title: `În conversație cu noua generație de artiști`,
+        category: 'Interact Transilvania',
+        color: '#3A8891',
+        time: '10 minute',
+        coverImg:'/assets/blogImages/cover/artist.jpg',
+        landscapeImg:'/assets/blogImages/landscape/artist.jpg',
+
+        description: `Cum ți-ai descoperit pasiunea pentru creație? Andreea Duganu: “Am descoperit-o când eram mică, dar s-a conturat mai mult de-a lungul timpului, pentru că a fost totdeauna o parte intrinsecă a vieții mele de zi cu zi. Tot timpul când mă plictiseam, ba mai desenam, ba mai citeam, ba vedeam un peisaj frumos și îi făceam o fotografie. Nu m-am focusat foarte mult să fac artă în sine, dar când vedeam oportunitatea, simțeam să fac asta.”`,
+
+        q3: `Cum ți-ai descoperit pasiunea pentru creație?`,
+        paragraph6: `Andreea Duganu: “Am descoperit-o când eram mică, dar s-a conturat mai mult de-a lungul timpului, pentru că a fost totdeauna o parte intrinsecă a vieții mele de zi cu zi. Tot timpul când mă plictiseam, ba mai desenam, ba mai citeam, ba vedeam un peisaj frumos și îi făceam o fotografie. Nu m-am focusat foarte mult să fac artă în sine, dar când vedeam oportunitatea, simțeam să fac asta.”`,
+        paragraph8: `Vlad Țuglea: “Printr-o substanță cu potență psihoterapeutică. Am descoperit când eram la țară că îmi place să desenez în stil suprarealist.”`,
+        paragraph10: `Chișu Mureșan: “Aveam trei ani și am început să desenez pe pereți. Și acum, la 16 ani, mai desenez pe pereți. Prima dată când mi-am dat seama că îmi place să desenez a fost la 5 ani, când mi-au dat ai mei un sketchbook și am început să îl umplu cu desene.”`,
+        paragraph12: `Igna Ruxandra: "Nu cred că a fost un moment exact, nu știu dacă voi ați putea spune un moment exact în care v-ați descoperit pasiunea. E ceva care e mereu cu noi, dar crește. Cred că de când eram la grădiniță și jucam în scenete de teatru simțeam că îmi place să mă exprim, să fiu pe scenă, să vorbesc în fața publicului. Așadar, cred că de atunci mi-am descoperit pasiunea: dintotdeauna. Totuși, pe parcurs am încercat diferite forme de artă: muzică, balet, teatru; și am ajuns cumva la film, care e specializarea mea generală."`,
+        paragraph14: `Βονζαί: "În primul rând, stăteam pur și simplu și nu aveam ce să fac, și, de exemplu, una dintre poezii nu-i de acolo dar ieșeam de la lucru de la Profi și stăteam pe garaje și beam o bere și mă uitam la cer și pur și simplu am început să scriu. Am trecut prin mai multe chestii și s-au reflectat în poezii, în mare parte."`,
+        paragraph16: `Chiș Denisa: "Când eram mică, am început să desenez fără a avea o dorință de a realiza ceva anume prin aceasta. Era doar o pasiune."`,
+        q2: `Ce tip de artă preferi?`,
+        paragraph18: `Duganu Andreea: “Cel mai mult fotografiile, ocazional poeziile și, rar, pictura. Nu mă prea pricep la pictură, însă în fotografii și poezii am mai multă încredere, ele sunt tipurile mele preferate de artă.”`,
+        paragraph20: `Vlad Țuglea: “Picturile mele se încadrează în suprarealism. Încerc să fac artă cu mesaj. Citesc foarte multe cărți filosofice, despre teologie, ermetism și încerc să integrez mesajul pe care îl înțeleg în ceea ce desenez sau pictez eu.”`,
+        paragraph21: `Chiș Denisa: "Pictez, lucrez în pastel, graffiti, tot ce se poate. Tehnicile mele preferate sunt arta digitală și grafitul."`,
+        q6: `Ce anume te inspiră în creațiile tale?`,
+        paragraph22: `Chișu Mureșan: “Gândurile mele. Pur și simplu, când fac o lucrare, ma pun la birou și îmi las mâna să meargă liberă. Nu pot să zic că mă gândesc prea mult la o lucrare atunci când o fac, ci exprim prin ea, prin subconștient, ce am în cap.”`,
+        paragraph23: `Igna Ruxandra: "Am un film pe care tocmai l-am terminat. E o reprezentare reală a ceea ce am trăit și e bazat pe evenimentele de dinainte și de după moartea unui prieten de-al meu într-un accident de mașină, dar nu e deloc trist. E cumva frumos; pune în comparație cele două realități: cea de dinainte și după, aducându-le împreună, comparându-le. Așa vedem că nu sunt atât de diferite. Ceva s-a schimbat, dar noi suntem tot aceiași. Prietenii din jurul lui au continuat să fie la fel, într-un fel, și poate mai înțelepți în altele."`,
+        q1: `Ai primit susținere din partea familiei pentru pasiunea ta?`,
+        paragraph24: `Vlad Țuglea: “Pot spune că mamei îi place ce desenez. Dar stă în Constanța, nu e neapărat prezentă pe tot parcursul creării unei lucrări, vede doar finalul. Însă trecutul meu și ceea ce citesc are impact asupra artei mele.”`,
+        paragraph25: `Chișu Mureșan: “Da, ai mei știu că asta vreau să fac în viitor. Mă susțin moral și, când vând un tablou, mă ajută financiar și mă recompensează.”`,
+        paragraph26: `Βονζαί: "Momentan, ei nu prea știu că scriu poezie. Le-am zis de Tête-à-Tête doar că nu au reușit să-și facă timp să vină. Nu au citit până acum nimic din ce am scris, dar cred că m-ar susține pentru că mă susțin în multe lucruri pe care le fac."`,
+        paragraph27: `Chiș Denisa: "Da, familia mea mă susține și vrea să am un viitor în lumea artei."`,
+        q9:`Ce sfaturi poți oferi unor tineri artiști reticenți la critici/feedback negativ?`,
+        paragraph28: `Chișu Mureșan: “Feedback-ul negativ este una dintre cele mai bune chestii pe care le poți primi, pentru că așa știi dacă faci ceva greșit și poți să te îmbunătățești, să fii mai bun data viitoare. Critica este un lucru util, mai ales când poate fi luată drept sfat. Așa știi unde am nevoie să lucrezi mai mult. Oamenii nu ar trebui să fie descurajați de critică. Deși, dacă sunt luați la mișto sau batjocoriți, e, într-adevăr, nasol și nu doresc asta niciunui om care are o pasiune. Dar, dacă chiar ești pasionat și îți place ceea ce faci, până la urmă nu o să mai conteze ce zic alții.”`,
+        q10: `Ce artiști te inspiră?`,
+        paragraph29: `Chișu Mureșan: “Gustav Klimt, Edgar Degas. Dar e mai ușor să spun curente artistice care îmi plac. Îmi place expresionismul și romantismul. Mulți oameni mi-au spus că arta mea seamănă cu cea a lui Junji Ito ca stil. Dar acești artiști, deși îmi plac, nu neapărat mă inspiră. Mă inspiră mai mult viața de zi cu zi.”`,
+        paragraph30: `Βονζαί: "Nu prea am un anumit artist care să îmi placă enorm de mult, nu aș putea să-ți dau un exemplu. Totuși, am mulți prieteni artiști, tineri ca mine, pe care îi respect, așa că pe ei i-aș alege ca favoriți. Unul dintre ei ar fi Kișu, care e cu noi aici."`,
+        q10: `Folosești arta pe care o creezi ca sursă de venit?`,
+        paragraph31:`Duganu Andreea: “Nu, pentru că nu îmi doresc să fac asta în viitor pe plan profesional. Însă vreau să rămână o parte a vieții mele. Nu fac asta pentru profit, deși ar fi un avantaj, ci fac asta pentru că așa simt eu.”`,
+        q11: `Cum te simți când lumea îți privește arta?`,
+        paragraph32: `Vlad Țuglea: “Vreau să fac în așa fel încât, indiferent cine privește, să simtă măcar un pic din mesajul meu. Și, indiferent dacă a văzut ceea ce voiam eu să transmit sau nu, vreau să simtă ceva. Nu știu dacă lumea înțelege exact ceea ce îmi doresc eu.”`,
+        paragraph33: `Chișu Mureșan: “Atunci când văd că cineva se apleacă spre tabloul meu, mă uit la reacția lor. Sunt curios dacă îi impresionez. Sunt fericit când se uită la arta mea, până la urmă de aceea îmi doresc să o expun.”`,
+        q12: `Crezi că apartenența la o comunitate de artiști are un impact asupra propriului proces creativ?`,
+        paragraph34: `Chișu Mureșan: “Cu siguranță, fiindcă atunci crești mai rapid, ai mai multă concurență, fapt care te motivează (chiar și motivația negativă e motivație), te inspiri de la alții și încerci, inconștient, să fii la fel ca ceilalți, ca în orice fel de grup.”`,
+        paragraph35: `Chiș Denisa: “Da, mă ajută să mă dezvolt în acest domeniu.”`,
+        q13: `De ce ai ales arta pe care o faci dintre toate formele de artă?`,
+        paragraph36: `Chișu Mureșan: “Nu pot spune că am ales, mai mult m-a ales ea pe mine, adică așa simt. Asta mi-a fost cea mai confortabilă tot timpul, mi-a venit cel mai ușor să mă exprim desenând. Mă mai exprim și în alte moduri, de exemplu muzică sau dans, dar tot timpul mă întorc la desen, fiind cel mai mult pasionat de arta grafică.”`,
+        paragraph37: `Chiș Denisa: “Nu desenez doar digital, dar pe digital e mai ușor, e un domeniu de viitor.”`,
+        q14: `Care e povestea debutului tău în lumea artei?`,
+        paragraph38: `Chișu Mureșan: “La începutul anului 2021, mi-am luat un carnețel A6, fiindcă tot timpul desenam în caiete la școală și unele desene chiar îmi plăceau cum arătau și voiam să le păstrez undeva mai adecvat. Când le-am pus pe toate în același loc, am realizat că unele erau frumoase și m-au motivat să fac mai mult. După patru luni am umplut carnețelul, din care am rupt două foi cu desene și le-am vândut. Când am văzut că pot să fac niște bani din chestia asta, m-am simțit motivat cumva. Până atunci vedeam ideea de artist ca una idealistă, imposibil să aducă bani, fiindcă trebuie să fii specialist. Dar când am văzut că pot și așa, prin puterile mele, am continuat.”`,
+        q15: `Ce ai spune pentru a încuraja un tânăr să-și urmeze pasiunea pentru artă?`,
+        paragraph39: `Vlad Țuglea: “Orice formă de artă rezolvă traume.”`,
+        paragraph40: `Chișu Mureșan: “Să își facă timp pentru artă, să își găsească un spațiu în care să se poată exprima, să continue, orice i-ar spune lumea din jur. Să nu le pese de orice critică negativă, sau de oameni care nu cred în ei, ci să își urmeze propriul drum. Să caute oameni pe aceeași lungime de undă cu ei, să se înconjoare de artiști, să consume artă, să se ducă la expoziții, recitaluri, să asculte, să observe, să danseze, să citească, să scrie.”`,
+        q16: `Care e procesul tău de creație? Ești o persoană mai spontană, te iei după un val de inspirație, sau îți planifici pașii?`,
+        paragraph41: `Chișu Mureșan: “Spontană, clar. Nu aș putea să planific ceva atât de sensibil. O fac când simt. Deși, dacă mă iau doar după gândul că o să desenez când o să simt, nu ajung să mai desenez vreodată. Trebuie să mă automotivez, să am o disciplină, măcar să mă pornesc. Uneori e greu să mă apuc să desenez, dar dacă îmi dau un impuls și încerc măcar să desenez ceva mic, ajung, încet-încet, punând eforturile la un loc, să fac ceva mare.”`,
+        paragraph42: `Βονζαί: "Îmi vine inspirația când, de exemplu, citesc o altă poezie sau mă uit la un peisaj. Scriu câteva cuvinte, după care mă uit peste ele când ajung acasă și sunt plictisit și îmi vine să scriu."`,
+        paragraph43: `Chiș Denisa: "Încep de la un concept, pe care îl dezvolt cu poze de referință, mă plimb prin natură și îmi completez ideile."`,
+        q17: `Ce aspect crezi că e esențial pentru a fi artist?`,
+        paragraph44: `Duganu Andreea: “Autenticitatea. E important să nu te gândești în primul rând la ce zic ceilalți, dacă le-ar plăcea sau nu. Chiar dacă e util să ai un public cheie, să ții minte să te exprimi fără cenzuri, ca să se vadă esența ta. Arta nu trebuie să fie o reflecție asupra lumii – lumea, când se uită la arta ta, trebuie să te vadă pe tine. Deci trebuie să prezinți lumea, dar prin filtrul tău.”`,
+        paragraph45: `Chișu Mureșan: “Sensibilitatea. Și, de asemenea, capacitatea de a fi impresionat de anumite lucruri, de a aprecia arta și de a încerca să o înțelegi.”`,
+        paragraph46: `Chiș Denisa: “Nu există neapărat un aspect esențial, poate doar iubirea pentru arta și inovație.”`,
+        q18: `Cum depășești momentele de "art block"?`,
+        paragraph47: `Duganu Andreea: “De obicei am perioade de art block când mă gândesc prea tare la ce fac. Atunci, imi iau 20 de minute libere în care fac orice altceva, de preferat ceva care nu are niciun fel de legătură cu arta: ies afară, vorbesc cu cineva la telefon…orice care mă ajută să mă deconectez. Apoi, când mă întorc la proiectul meu curent, îmi fac o imagine mentală, mă gândesc la un anumit subiect, fără să pun presiune pe mine că trebuie neapărat să scriu ceva sau să fac fotografii. Doar mă gândesc la un anumit subiect și văd ce idei îmi vin. Iar după ce îmi vin câteva idei, încerc să le elaborez.”`,
+        paragraph48: `Vlad Țuglea: “În general, când citesc ceva, descoperind sau învățând ceva nou, îmi vine automat și o idee. De asta și citesc în primul rând.”`,
+        paragraph49: `Chișu Mureșan: “Mă pun să desenez – o chestie, cât de mică, pentru a mă debloca. După aceea, îmi e mai ușor să continui. Art block-ul ține, cumva, de mentalitate. Dacă îți zici <Apăi, sunt în art block, nu fac nimic!>, atunci îți induci ideea că, într-adevăr, nu mai poți face nimic, deci normal că o să-ți fie tot mai greu pe măsură ce trece timpul. Dacă te pui și te forțezi un pic să faci ceva, vei reuși, and it’s so worth it!”`,
+        paragraph50: `Βονζαί: "Pur și simplu am lăsat proiectul deoparte, iar după ceva timp am reînceput să lucrez la el. "Gândire obiectivă", fiind și cea mai lungă poezie a mea, a suferit multe edituri. Am început-o în vara anului trecut, iar cea mai recentă versiune, cea de aici, a fost finalizată în februarie anul acesta. Art block-ul, când îmi vine, îl ignor, iar când mi se duce, mă apuc din nou de scris."`,
+        paragraph51: `Chiș Denisa: "De obicei mă duc și mă plimb în natură, mă consult cu niște prieteni, după care pleacă art block-ul."`,
+        q19: `De ce crezi că e importantă arta pentru societate?`,
+        paragraph52: `Chișu Mureșan: “Arta e o componentă esențială a umanității. Primul semn de civilizație a fost arta, a fost primul semn că oamenii gândesc și au sentimente și vor să comunice cu cei din jur. Am fi roboți fără artă.”`,
+        paragraph53: `Igna Ruxandra: "Prin filmul meu am reușit și eu să scap cumva în realitatea a ceea ce s-a întâmplat, să înțeleg prin ce am trecut, de ce am fost afectați în felurile în care am fost, cum am ajuns să ne schimbăm relațiile dintre noi... Cred că acesta este cel mai important lucru pe care îl putem face, și faptul că îl promovăm și organizăm evenimente de genul este atât de valoros în societate. Nu multă lume vede asta, dar tinerii încep parcă să observe tot mai mult importanța artei."`,
+        paragraph54: `Βονζαί: "Pentru că este un mod prin care putem să ne exprimăm, și pentru că, deși putem fi raționali tot timpul, trebuie să ne exprimăm sentimentele. Nu puteam face lucrul acesta doar cu vorbe, e nevoie și de desen, scriere, muzică... Sunt cele mai bune moduri prin care ne putem exprima iubirea, durerea, orice alt sentiment."`,
+        paragraph55: `Chiș Denisa: "Pentru a avea un outlook față de mai multe culturi și mai multe tipuri de concepte."`,
+        q20: `Ce anume apreciezi la creațiile tale/stilul tău de creație?`,
+        paragraph56: `Chișu Mureșan: “Tablourile mele combină coșmaruri, amintiri, gânduri, ochi, fețe, forme geometrice, foarte multe chestii una în alta, mai ales în tabloul expus la Tete-a-Tete. Unii poate ar zice că e puțin horror. Într-adevăr, pot fi considerate mai agresive, dar de când eram mic mi-au plăcut chestiile mai ciudate, mai înfricoșătoare. Primul lucru pe care l-am desenat în scrapbook la cinci ani au fost niște monștri. Încă îi mai desenez pe unii din ei ca un fel de semnătură.”`,
+        paragraph57: `Βονζαί: “ “Gândire obiectivă” e despre cum m-am gândit că o să fie viața pentru majoritatea oamenilor, inclusiv pentru mine. “Privilegiu” e o satiră a vieții și a societății în care trăim.”`,
+        q21: `Cum ai defini arta într-un cuvânt?`,
+        paragraph58: `Chișu Mureșan: “Viață.”`,
+        paragraph59: `Chiș Denisa: “Inspirație.”`,
+
+        author: "Mălina Bochiș și Gabriela Urian",
+        date: "7 Iunie, 2023"
+
+    },
+
+    {
+        id:4,
+        title: `Cum a fost la "Poveste la film"`,
+        category: 'Interact Transilvania',
+        color: '#3A8891',
+        time: '5 minute',
+        coverImg:'/assets/blogImages/cover/film.png',
+        landscapeImg:'/assets/blogImages/landscape/film.jpg',
+
+        description: `"Poveste la film" a deschis un nou orizont în privința proiectelor noastre, reprezentând o explorare delicată a cinematografiei românești într-o manieră nuanțată și contemplativă. Prima etapă a proiectului a constat în vizionarea scurtmetrajului "Chers Amis", opera de debut a regizorului Valeriu Andriuță. Acest film ne-a transportat într-o școală rurală basarabeană, dezvăluind interacțiunile dintre profesori în cancelarie, în timpul pauzei.`,
+        paragraph1: `"Poveste la film" a deschis un nou orizont în privința proiectelor noastre, reprezentând o explorare delicată a cinematografiei românești într-o manieră nuanțată și contemplativă. Prima etapă a proiectului a constat în vizionarea scurtmetrajului "Chers Amis", opera de debut a regizorului Valeriu Andriuță. Acest film ne-a transportat într-o școală rurală basarabeană, dezvăluind interacțiunile dintre profesori în cancelarie, în timpul pauzei.`,
+        paragraph2: `La început, evenimentele păreau comice și ușor bizare, dar dincolo de aparențele superficiale, se contura o altă perspectivă. Am oferit tuturor participanților șansa de a descoperi și analiza semnificațiile filmului într-un mod interactiv și colectiv. Discuția a fost condusă de Radu Toderici, critic de film și profesor la Universitatea Babes-Bolyai. Prin schimbul de gânduri și idei, am ajuns la o viziune mai amplă și mai complexă, mulțumită implicării tuturor celor prezenți. Evenimentul a avut loc în spațiul prietenos al Cinema Arta, alegerea perfectă pentru o astfel de seară. După ce Interact Transilvania a organizat un eveniment de graffiti și o frumoasă seară de poezie, era evident că următorul nostru proiect trebuia să fie o vizionare de film, mai precis un scurtmetraj. Știam cu toții că pentru aceasta aveam nevoie de un invitat special, de o locație adecvată, de un film de calitate și, desigur, de participanți entuziaști - voi!`,
+        paragraph3: `Odată ce totul a fost pregătit, participanții au umplut sala mare a Cinema Arta, contribuind și prin donații, iar vizionarea a început. La început, recunosc că am avut emoții, deoarece ne-am întrebat dacă vom reuși să atragem un public la fel de numeros ca în cazul evenimentului de graffiti. Cu toate acestea, cea mai mare surpriză a fost atunci când am văzut 80 de persoane intrând în sala de proiecție, nerăbdătoare să afle ce le va oferi următoarele 20 de minute din viața lor. Invitatul nostru, Radu Toderici, profesor în cadrul Facultății de Teatru și Film de la UBB, a fost prezent și a ținut un discurs captivant. Odată ce el a inițiat discuția, fiecare participant a reușit să contribuie cu ideile și perspectiva sa asupra filmului "Chers Amis", realizat de Valeriu Andriuță.`,
+        paragraph4: `Astfel, am atins scopul nostru: cinefilii prezenți ne-au oferit, fiecare în parte, o perspectivă asupra mesajului transmis de acest film, subliniind faptul că arta și filmul sunt subiective și că este întotdeauna important să ne provocăm să reflectăm asupra a ceea ce vedem, în loc să privim fără discernământ, indiferent de tipul, genul sau forma de divertisment pe care le urmărim.`,
+        paragraph5: `Bineînțeles, ca și la orice alt eveniment organizat de noi, banii donați au fost direcționați către o cauză nobilă: Asociația Filantropică "Sfântul Onufrie", care are ca obiectiv principal construirea Așezământului pentru Copii "Sfântul Onufrie" din Tăuți.`,
+
+        author: "Tudor Pop și Ema Călian",
+        date: "7 Iunie, 2023"
+
+    },
+
+    {
+        id:5,
+        title: `Despre "Aici Improvizăm"`,
+        category: 'Interact Transilvania',
+        color: '#3A8891',
+        time: '5 minute',
+        coverImg:'/assets/blogImages/cover/teatru.png',
+        landscapeImg:'/assets/blogImages/landscape/teatru.jpeg',
+
+        description: `Teatrul este o formă de artă care îngăduie artistului să se exprime prin mișcări ale corpului, expresii faciale și care îi oferă oportunitatea de a transmite publicului un mesaj în care crede. La evenimentul nostru, „Aici Improvizăm”, ne-am dorit să oferim participanților șansa de a se exprima liber, prin propriile replici, improvizate pe moment.`,
+        paragraph1: `Teatrul este o formă de artă care îngăduie artistului să se exprime prin mișcări ale corpului, expresii faciale și care îi oferă oportunitatea de a transmite publicului un mesaj în care crede. La evenimentul nostru, „Aici Improvizăm”, ne-am dorit să oferim participanților șansa de a se exprima liber, prin propriile replici, improvizate pe moment.`,
+        paragraph2: `Magia a avut loc la Centrul de Creație Maidan Cluj-Napoca. Înainte de începerea efectivă a activitățiilor, reprezentanți ai Asociației Redescoperă Fericirea, cauză susținută de Interact Transilvania prin acest eveniment, au vorbit participanților despre ceea ce fac și ce anume îi determină, aducând la lumină importanța susținerii terapeutice a bolnavilor de cancer și a familiilor acestora. Ne bucurăm că am avut plăcerea de a avea ca spectatori și participanți pe câțiva membri ai cauzei pe care o susținem, astfel că am simțit atât noi, organizatorii, cât și participanții, scopul cu care ne-am strâns împreună în acea zi.`,
+        paragraph3: `Activitățile au început cu jocuri de mișcare în spațiu, care au ajutat participanții să se conecteze între ei, să simtă fiecare locul unde se află coechipierii de pe scenă. Apoi au urmat jocuri de încredere și atenție, iar, în final, o serie de scenete improvizate după anumite reguli, care au necesitat imaginația și creativitatea tinerilor actori. În tot acest timp, atât cei la care le venea rândul să fie pe scenă, cât și spectatorii au avut mereu zâmbetul pe buze.`,
+        paragraph4: `Toate aceste activități au fost coordonate de Ruxandra Igna și Sara Pongrac, studente la teatru, care, la final, au susținut o sesiune de discuții libere și deschise legate de ce înseamnă lumea teatrului, informații despre facultate și au oferit tips and tricks legate de actorie celor interesați.`,
+        paragraph5: `Cu toții am avut ocazia de a ne deconecta pentru mai bine de două ore, lăsând tehnologia la o parte și bucurându-ne de moment. Am pătruns împreună în lumea teatrului, atât cei cunoscători cât și cei care au încercat o astfel de experiență pentru prima dată.`,
+        
+        author: "Mălina Bochiș",
+        date: "10 Mai, 2023"
+    },
+
+    {
+        id:6,
+        title: "Rujul și privirea masculină",
+        category: 'Social',
+        color: '#A19664',
+        time: '10 minute',
+        coverImg: '/assets/blogImages/cover/ruj.png' ,
+        landscapeImg: '/assets/blogImages/landscape/ruj.png',
+
+        description: `Cred că mare parte dintre persoanele care citesc articolul acesta au dat peste citatul ăsta:
+        “Male fantasies, male fantasies, is everything run by male fantasies? Up on a pedestal or down on your knees, it's all a male fantasy: that you're strong enough to take what they dish out, or else too weak to do anything about it. Even pretending you aren't catering to male fantasies is a male fantasy: pretending you're unseen, pretending you have a life of your own, that you can wash your feet and comb your hair unconscious of the ever-present watcher peering through the keyhole, peering through the keyhole in your own head, if nowhere else. You are a woman with a man inside watching a woman. You are your own voyeur.”`,
+        paragraph1: `Cred că mare parte dintre persoanele care citesc articolul acesta au dat peste citatul ăsta:
+        “Male fantasies, male fantasies, is everything run by male fantasies? Up on a pedestal or down on your knees, it's all a male fantasy: that you're strong enough to take what they dish out, or else too weak to do anything about it. Even pretending you aren't catering to male fantasies is a male fantasy: pretending you're unseen, pretending you have a life of your own, that you can wash your feet and comb your hair unconscious of the ever-present watcher peering through the keyhole, peering through the keyhole in your own head, if nowhere else. You are a woman with a man inside watching a woman. You are your own voyeur.”`,
+        paragraph2: `Citatul aparține lui Margaret Atwood, din carte ei, ”The Robber Bride”, deși ea e mai probabil cunoscută pentru seria ei, ”The Handmaid's Tale”, care de asemenea descrie o societate futuristică și distopică în care țapul ispășitor ajunge să fie ”sexul frumos”.`,
+        paragraph3: `Oricum, citatul mi s-a imprimat pe conștiință, dar a revenit din stare latentă când un om cu o poziție de autoritate asupra mea mi-a adus la conștiință un vechi clișeu de gen. Cu ochii ascuțiți și un zâmbet sardonic m-a informat că femeile nu ar trebui să își pună rujul pe stradă, în bătaia ochiilor voluptuoși ai bărbaților care ar putea să treacă prin preajma ei.`,
+        paragraph5: `Pot înțelege normele sociale care privesc bunul gust, însă am stat mult și bine pentru câteva seri să comteplez de unde a pornit această vorbă. Și atunci mi-a revenit din subsolul creierului citatul lui Atwood. O să o zic pe față, nu sunt sociolog, și nici nu excelez la materie asta, însă proastă nu sunt, și conexiunea s-a realizat aproape instant.`,
+        paragraph6: `Toată viața mi-am suprimat dorința de a mă răzvrăti împotriva standardelor de frumusețe feminine, pentru că știm că acest privilegiu se acordă doar anumitor persoane excesiv de atractive, dar și atunci în doze mici (dar asta e o discuție pentru altă dată).  Însă sentimentul de respingere pe care se poate să-l fi resimțit a fost îndeajuns să mă împingă spre dorința de conformitate confortabilă.`,
+        paragraph8: `Însă revin la privința rujului. Buzele, obiectul seducției, semnul fertilității și al vitalității. Încă din Antichitate, buzele roz au fost un fapt accentuat în orice opera de artă. Moda petei de culoare roșiatică a prins alură și în era Victoriană, dar cu o latură morbidă (pentru cititorii moderni): moda tuberculozei, sau cum era numită, ”consumption”. Boala asta producea bolnavului o schimbare în ten, care devenea palid și translucid, dar și în nuanța obrazilor și a buzelor, care din cauza puseurilor de stări febrile se transformau într-o culoare plăcută de roz. Moda a prins rapid alură, iar femeile din Marea Britanie au început încurând să întruchipeze aspectul dat de boală prin diverse tehnici. Obsesia femeilor cu propria vanitate nu a fost doar admisă, ci chiar încurajată, deoarece reprezintă idealul de sacrificiu a sinelui pentru ”celălalt”.`,
+        paragraph10: `Intimitate, secretozitate, mister, toate înconjoară entitatea feminine. Totdeauna admirate, însă niciodată atinse, deoarece distruge puritatea, naivitatea și inocența acestei ființe fictive. Rujul aplicat în public arată că starea natural a femeii nu este originală, înnăscută, ci este o falsitate, o disimulare similară cu păcatul original al Evei. A-ți pune rujul în fața ochiilor bărbaților ar însemna a distruge proiecția lor asupra ta, a crea un simulacru. Cobori din rangul ființei ideale, care există pentru a încânta privirea, la un ”biet actor” (în cuvintele lui Păunescu) care încearcă disperat a se regăsi în ierarhia vieții cotidiene.`,
+        paragraph12: `Lovitura de grație din partea persoanei respective a venit când mi-a spus că, de asemenea, femeile nu ar trebui să fumeze pe stradă. Măcar pe asta am mai auzit-o, dar dacă mă cunoști știi că sunt o fumătoare adevărată, dependentă de-a dreptul. Vorbele ăstea le-am mai auzit și din gura propriei mame, însă până în acest moment nu le-am dat importanță, fiind prea concentrate să-mi asigur următoarea doză de nicotină. Însă recent, revizionând filmul ”Pierrot Nebunul” de Jean-Luc Godard am realizat importanța acestui sfat.`,
+        paragraph14: `Nu am să intru prea mult în detaliile filmului, dar menționez că personajul principal feminin, Marianne, jucat de nimeni alta decât Anna Karina, reprezintă în mintea mea primul exemplu concret de ”manic pixie dream girl”. Fumatul, în Franța aniilor 60, reprezenta nu doar o manieră de a-ți exprima rebeliunea, dar devenea însăși o valoare de sine stătătoare. Companiile de tutun, nu doar cele franceze, au practicat lobbying-ul greu în lumea cinematografică pentru a-și crește vânzările. Așa ajung la sterereotipul de ”femme fatale”, care după nume și-a avut originea însăși în țara menționată mai sus.`,
+        paragraph16: `Așa că prin ce întâmplare a ajuns fumatul să devină un taboo social pentru femeile din lume, când filmele până în prezent l-au reprezentat ca o caracteristică a femeii fatale, al cărei erotism emană din fiecare por al trupului ei? Răspunsul, în viziunea mea, poate fi extras din nou din citatul lui Atwood.`,
+        paragraph18: `Cel ce vizionează actul fumatului, întotdeauna printr-o lentilă de aproape, vede intimitatea femeii, chiar dacă această în scenariul este adesea înconjurată de alți oameni. Privirea ei este seductiv îndreptată spre interesul romantic/privitor, niciodată menționându-se lucrul evident pentru orice fumător înrăit, și anume gustul dezgustător pe care tutunul ți-l lasă în gură și dinții îngălbeniți. În acel fel, privitorul devine voyeur al acestui act, iar iluzia feminității nu este tulburată, ca nu cumva sexulitatea personajului să nu fie ruinată.`,
+        paragraph20: `Aceași gândire se aplică și vieții de zi cu zi, când femeilor de rând nu li se permite societal să dispună acest viciu, doar în intimitatea propriei minți (în care pot pretinde că se află într-un scenariu regizat), sau când se află sub privirea unui bărbat care poate să idealizeze acest act.`,
+        paragraph22: `Poate vi se pare că am deraiat de la simplul eveniment, sau poate sunteți de acord, însă în orice caz sper că citatul de mai sus vă pune să vă gândiți (mai ales pe cititoarele femei) la impactul pe care cele mai mici acțiuni pot fi percepute ca fiind acte de teatru ascunse sub fațada aderării la normele societale impuse. `,
+
+        date:  "10 Mai, 2023",
+        author: "Maria Popa"
+    },
+
+    {
+        id:7,
+        title: `Prima mea iubire muzicală.`,
+        category: 'Cultură',
+        color: '#CC704B',
+        time: '7 minute',
+        coverImg: '/assets/blogImages/cover/pian.png',
+        landscapeImg: '/assets/blogImages/landscape/pian1.jpg',
+        description: `Sergei Rachmaninoff este un pianist virtuos dar și foarte tandru al secolului al XX-lea. Născut în anul 1873 la Semyonovo, Rusia, Rachmaninoff a fost unul dintre cei mai mari pianiști din istoria Rusiei și din istoria muzicii clasice. Fiind născut într-o familie de muzicieni Rachmaninoff a început să cânte la pian de la vârstă de 4 ani.  Una dintre cele mai cunoscute lucrări ale lui este Concertul de pian numărul 2 în Do Minor. Considerat unul dintre cele mai monumentale concerte de pian din istoria muzicii clasice acest concert te trece prin aproape toate sentimentele posibile. Furie, înnebuneală, oboseală, milă, tristețe, disperare, eliberare, fericire, extaz.        `,
+        paragraph1: `Sergei Rachmaninoff este un pianist virtuos dar și foarte tandru al secolului al XX-lea. Născut în anul 1873 la Semyonovo, Rusia, Rachmaninoff a fost unul dintre cei mai mari pianiști din istoria Rusiei și din istoria muzicii clasice. Fiind născut într-o familie de muzicieni Rachmaninoff a început să cânte la pian de la vârstă de 4 ani.  Una dintre cele mai cunoscute lucrări ale lui este Concertul de pian numărul 2 în Do Minor. Considerat unul dintre cele mai monumentale concerte de pian din istoria muzicii clasice acest concert te trece prin aproape toate sentimentele posibile. Furie, înnebuneală, oboseală, milă, tristețe, disperare, eliberare, fericire, extaz.        `,
+        paragraph2: `Concertul de pian nr. 2 reflectă influența rusească a lui Rachmaninoff, precum și influențele occidentale. El folosește teme și motive tradiționale rusești într-o manieră originală și creativă, creând o muzică puternic expresivă și emoționantă. De asemenea, concertul reflectă abilitățile lui Rachmaninoff ca pianist, cu un rol principal solicitant pentru solist și o orchestră înțeleaptă folosită pentru a sublinia și a accentua emoțiile din piesă.`,
+        paragraph3: `În scrisul concertului nr. 2, Rachmaninoff a dorit să exprime propriile sale sentimente și emoții prin muzică, creând o lucrare care să fie personală și profundă pentru el și pentru publicul său.`,
+        paragraph7: `De ce a scris Rachmaninoff acest concert?`,
+        paragraph8: `Acest concert a fost scris după ce Rachmaninoff a suferit 4 ani de depresia scriitorului. Această depresie a început când Rachmaninoff și-a făcut debutul în lumea simfoniilor cu Simfonia No.1 care a fost un eșec total. Publicul și criticii i-au despicat sufletul muzical lui Rachmaninoff zicând că nu o să scrie niciodată muzică bună.  Concertul este dedicat terapeutului lui pe nume Nikola Dahl. Acesta l-a ajutat pe Rachmaninoff să treacă peste criza existențială de care nu mai putea scăpa. `,
+        paragraph9: `Ce cred eu despre acest concert?`,
+        paragraph10: `Acest concert este primul concert de pian de care m-am îndrăgostit. Fac pian de la 6 ani. Acest concert a fost primul concert de pian pe care l-am ascultat în viața mea. L-am descoperit acum 2 ani și îl ascult non-stop de atunci. Cred că deja îl și știu pe de rost. Nu la pian desigur, doar auditiv. Mișcarea mea preferată este mișcarea a treia. Aceasta, din punctul meu de vedere, reprezintă eliberarea lui Rachmaninoff din acea depresie. Punctul culminant în care acesta își revine la propria persoană și începe să fie fericit din nou. `,
+        paragraph11: `Interpretarea mea preferată`,
+        paragraph12: `Cred că nu exagerez când zic că am auzit peste 50 de interpretări (live sau nu) ale acestui concert de pian. Favoritele mele sunt următoarele:`,
+        paragraph14: `1.Krystian Zimmerman`,
+        paragraph16: `2.Evgeny Kissin`,
+        paragraph18: `3.Alexander Malofeev`,
+        paragraph20: `Prima interpretare pe care am ascultat-o a fost cea a lui Evgeny Kissin. Se poate găsi pe youtube. Dacă căutați numele concertului este una dintre primele interpretări care o să vă apară pe ecran. Interpretarea lui Zimmerman am găsit-o din greșeală odată când am căutat pe spotify concertul. Am zis să o ascult din moment ce Zimmerman este unul dintre interpreții mei preferați de orice tip de muzica clasică. Este cu mult mai intensa decat cea a lui Kissin. Zimmerman își arată adevărata putere a pianului și întețește furtuna pe care o descrie Rachmaninoff în acest concert. Este și va rămâne interpretarea mea preferată.`,
+        paragraph22: `Acest concert a fost scris de Rachmaninoff ca o revanșă față de public și mai presus de toate, față de el însuși și de statutul său de compozitor. Nikola Dahl l-a ajutat pe Rachmaninoff să scape de depresia scriitorului. Interpretările pe care le recomand sunt cele ale lui Kissin, Zimmerman și Malofeev. `,
+        paragraph24: `Vreau să vă mulțumesc că ați acordat timp acestui articol și dacă veți asculta vreodată Concertul nr 2 de pian al lui Rachmaninoff vă doresc o audiție plăcută!`,
+
+        date:  "10 Mai, 2023",
+        author: "Ștefan Miere"
+    },
+
+    {
+        id:8,
+        title: "STEM vs Arts",
+        category: 'Social',
+        color: '#A19664',
+        time: '7 minute',
+        coverImg: '/assets/blogImages/cover/stem.jpg' ,
+        landscapeImg: '/assets/blogImages/landscape/stem.jpg',
+
+        description: `În societatea actuală, materiile și carierele din domeniile STEM sunt mult mai apreciate, bine văzute și plătite decât cele din domeniul artelor. Fie că vine din partea părinților, profesorilor sau influencerilor de pe social media, tinerii sunt îndemnați să aspire la o carieră STEM, chiar dacă asta își doresc cu adevărat sau nu, sau undeva, în adâncul lor, ar prefera să studieze literatura, științele sociale sau arta. Astfel, s-a creat o ruptură în rândul pasionaților de unul din aceste două domenii și s-a ajuns la ideea universal acceptată conform căreia unii oameni sunt biologic mai mult înclinați spre gândirea matematică, iar alții spre cea artistică. Totuși, tipurile diferite de inteligență nu ar trebui să le excludă sau să le invalideze pe celelalte. Din păcate, nu putem zice că acesta e cazul în situația actuală. Persoanele înclinate spre domeniile STEM sunt văzute ca având un nivel mai înalt de inteligență, complet ignorându-se faptul că tipurile diferite de inteligență nu pot fi și nici nu ar trebui să fie comparate`,
+        paragraph1: `În societatea actuală, materiile și carierele din domeniile STEM sunt mult mai apreciate, bine văzute și plătite decât cele din domeniul artelor. Fie că vine din partea părinților, profesorilor sau influencerilor de pe social media, tinerii sunt îndemnați să aspire la o carieră STEM, chiar dacă asta își doresc cu adevărat sau nu, sau undeva, în adâncul lor, ar prefera să studieze literatura, științele sociale sau arta. Astfel, s-a creat o ruptură în rândul pasionaților de unul din aceste două domenii și s-a ajuns la ideea universal acceptată conform căreia unii oameni sunt biologic mai mult înclinați spre gândirea matematică, iar alții spre cea artistică. Totuși, tipurile diferite de inteligență nu ar trebui să le excludă sau să le invalideze pe celelalte. Din păcate, nu putem zice că acesta e cazul în situația actuală. Persoanele înclinate spre domeniile STEM sunt văzute ca având un nivel mai înalt de inteligență, complet ignorându-se faptul că tipurile diferite de inteligență nu pot fi și nici nu ar trebui să fie comparate`,
+        paragraph2: `Totuși, nu putem să nu ne întrebăm cum s-a ajuns aici. În trecut, marii gânditori erau atât matematicieni, cât și filosofi și scriitori. Totodată, meseria de profesor era respectată și onorată. În prezent, oamenii care lucrează în domeniile STEM se feresc de a citi sau scrie poezie, iar tot mai puțini oameni visează să ajungă profesori.`,
+        paragraph3: `Nu putem să ignorăm faptul că această schimbare a intereselor și aprecierii anumitor cariere în trecut respectate a apărut în timp, odată cu creșterea numărului de femei care intră în aceste domenii. Cu cât literaturii i-a fost atribuit un caracter mai feminin, cu atât mai mult a scăzut nivelul de apreciere pentru aceasta de către ”oamenii intelectuali”, adică, în mare parte, cei din domeniul STEM, unde, chiar și în prezent, domină numărul de bărbați. De asemenea, creșterea popularității conceptului de „girl in STEM”, cu scopul de a valorifica mișcarea "girl power" și încurajarea femeilor să urmeze cariera dorită din acest domeniu, cu tot binele cu care sunt intenționate, au adus, de asemenea, consecința creșterii diferențierii dintre cele două categorii. Involuntar, din dorința de a fi luate în serios în domeniu și de a fi privite cu același respect și nivel de încredere precum colegii lor de gen masculin, femeile ajung să se distanțeze de eventuala lor latură artistică, fiindcă simt nevoia să dovedească că sunt capabile să reziste în domeniu. Totodată, ajung chiar ele să perpetueze ideea că inteligența matematică e, în vreun fel, superioară celorlalte tipuri de inteligență, fără să realizeze că acest concept a fost creat inițial pentru a le intimida și a le asocia cu un concept feminin atribuit social literaturii.`,
+        paragraph5: `Spre deosebire de domeniile STEM, literatura, istoria și arta deschid mintea spre mai multe perspective și îmbunătățesc gândirea critică, care este esențială în orice domeniu de activitate. Până la urmă, în orice carieră te lovești de politică, treburi administrative, dar și de necesitatea de a-ți exprima punctul de vedere printr-o prezentare sau un eseu de opinie. Fie că ai ales să urmezi o carieră într-un domeniu STEM sau artistic, e necesar să cunoști elemente de bază din ambele. Și atunci, de ce ne ferim atât de mult de matematică, gândindu-ne că nu o vom folosi niciodată în afara școlii? De ce tratăm istoria și literatura ca ceva nefolositor, știind că oricum vrem să devenim medici sau ingineri?`,
+        paragraph6: `Cumva, frica aceasta provine și din perfecționism. Ne dorim să excelăm în ceea ce ne interesează, fiindcă asta am fost condiționați să ne dorim. Iar când suntem nevoiți să facem ceva cu totul diferit și ne dăm seama că nu ne pricepem, alegem să ne ferim de acel lucru. Spun asta din perspectiva unui elev STEM, care vrea să continuie în domeniul STEM. Totuși, nu vreau să ajung să nu fiu capabilă să scriu un eseu argumentativ pentru a-mi susține opinia și nu vreau să intru în muzee de artă sau de istorie gândindu-mă doar la câte alte lucruri ”utile” aș fi putut face în acel timp. Nu vreau să ajung să nu pot aprecia arta și să mă îndepărtez de partea mea artistică, cum am observat că tind să facă majoritatea celor din jurul meu, din dorința de a-și acorda mai mult timp spre a lucra ca să exceleze în IT.`,
+        paragraph4: `Până la urmă, această discrepanță între domeniile de interes ale oamenilor nu aduce niciun beneficiu. De ce se alege să se perpetueze ideea potrivit căreia un om geniu într-un anumit domeniu restrâns e cumva mai demn de respect decât un om care are cunoștințe diverse, din mai multe domenii largi? Ideea curentului literar umanist, potrivit căreia omul perfect e un om complet, care cunoaște și se pricepe la diferite chestii, a fost înlocuită de dorința de a deveni un expert și de a excela într-un singur domeniu restrâns. Nu putem să nu legăm asta de faptul că sistemul capitalist progresează datorită oamenilor care se pricep foarte bine în ceea ce fac, experți, dar care nu cunosc mult din afara sferei lor de interes. Pentru că e mult mai ușor să influențezi pe cineva dacă nu are cunoștință de cauză din domenii diverse, dacă nu e capabil să facă legături și să pună toate lucrurile legate de societatea în care trăiește în balanță, dacă nu e interesat să ia în calcul alte perspective, alte principii de viață, să cunoască oameni cu un fundal social diferit.`,
+        paragraph8: `Concluzia la care am vrut să ajung e pur și simplu că îmi pare rău să văd atâția oameni care își doresc o carieră artistică, dar care sunt împinși de societate către una STEM. Și îmi pare rău că sistemul în care trăim plătește mult mai rău meseriile care nu dezvoltă societatea în materie de tehnologie. Consider că omul, în toată complexitatea lui, ar trebui să fie încurajat în aceeași măsură să cunoască diferite domenii, să dețină diferite aptitudini și să își aleagă cariera împins de propriul interes, nu doar din cauza setei de dezvoltare a intelectualității matematice, în detrimentul celei artistice.`,
+
+        date:  "25 Ianuarie, 2023",
+        author: "Mălina Bochiș"
+    },
+
+    {
+
+        id:9,
+        title: 'Nu sunt pasionata de nimic',
+        category: 'Social',
+        color: '#A19664',
+        time: '7 minute',
+        coverImg: '/assets/blogImages/cover/passionless.jpg' ,
+        landscapeImg: '/assets/blogImages/landscape/passionless.png',
+        description: `La grădiniță m-a înscris mama la dansuri populare. Ne pregăteam pentru serbare cu o doamnă drăguță de la Școala Populară de Arte și la sfârșitul celor câteva ore de aproape vals m-am rugat de mama să mă înscrie la cercul unde preda doamna. Nu știu de ce ne învăța vals, ea fiind profesoară de dansuri populare, însă oricum orice fel de dansuri erau, eram sortită să mă las după câteva luni. În clasa doua a urmat era mea de voleibalistă, care a ținut aproximativ două luni. Puțin după m-am decis că vreau să mă apuc de karate, și chiar mi-a plăcut, până când a trebuit să dau un examen ca să trec de la centura albă la cea galbenă și m-am speriat. Nu m-am lăsat însă de a face sport și m-am apucat de handbal. La handbal am activat un an întreg, mai mult sau mai puțin forțată. Nu mi-a plăcut deloc, fetele erau mai mari decât mine, răutăcioase și, în ochii mei de copil blând de clasa patra care cânta devotată în corul Bisericii de trei ani în continuu, prea agresive. În vara de dinainte de clasa a cincea mi-am încheiat etapa sportivă a vieții. Tot atunci mi-am încheiat și etapa religioasă a vieții, când mama și-a încheiat relația tumultoasă cu iubitul ei toxic din corul Bisericii. În timpul acestor crize de personalitate am participat și la câteva ore de desen, înot și canto. Dar în spatele fiecărei activități a existat o influență externă. Fie mama, fie soră-mea, fie entuziasmul pentru cărțile de vizită ale doamnei care m-a învățat vals la grădiniță, mereu cineva m-a convins. Nu am făcut nimic din pură inițiativă niciodată.`,
+        paragraph1: `La grădiniță m-a înscris mama la dansuri populare. Ne pregăteam pentru serbare cu o doamnă drăguță de la Școala Populară de Arte și la sfârșitul celor câteva ore de aproape vals m-am rugat de mama să mă înscrie la cercul unde preda doamna. Nu știu de ce ne învăța vals, ea fiind profesoară de dansuri populare, însă oricum orice fel de dansuri erau, eram sortită să mă las după câteva luni. În clasa doua a urmat era mea de voleibalistă, care a ținut aproximativ două luni. Puțin după m-am decis că vreau să mă apuc de karate, și chiar mi-a plăcut, până când a trebuit să dau un examen ca să trec de la centura albă la cea galbenă și m-am speriat. Nu m-am lăsat însă de a face sport și m-am apucat de handbal. La handbal am activat un an întreg, mai mult sau mai puțin forțată. Nu mi-a plăcut deloc, fetele erau mai mari decât mine, răutăcioase și, în ochii mei de copil blând de clasa patra care cânta devotată în corul Bisericii de trei ani în continuu, prea agresive. În vara de dinainte de clasa a cincea mi-am încheiat etapa sportivă a vieții. Tot atunci mi-am încheiat și etapa religioasă a vieții, când mama și-a încheiat relația tumultoasă cu iubitul ei toxic din corul Bisericii. În timpul acestor crize de personalitate am participat și la câteva ore de desen, înot și canto. Dar în spatele fiecărei activități a existat o influență externă. Fie mama, fie soră-mea, fie entuziasmul pentru cărțile de vizită ale doamnei care m-a învățat vals la grădiniță, mereu cineva m-a convins. Nu am făcut nimic din pură inițiativă niciodată.`,
+        paragraph2: `Dintotdeauna nu mi-a plăcut să fac nimic.`,
+        paragraph3: `Nu-mi place să fac nimic, dar totuși mă implic în tot ce-mi apare în cale. Nu-mi place să fac nimic, dar cred totuși că nu am încercat destule. Nu-mi place să fac nimic, dar vreau să fac cât mai multe ca să am experiență în tot. Nu am nicio pasiune, dar am o mie de lucruri care îmi plac. Mereu am avut și mi-am împărtășit fără rușine dorința de a ajunge o casnică împăcată și liniștită, dar nu pentru că sunt eu foarte familistă, ci ca să pot să încerc tot ce nu am apucat să încerc până acum, fără să fiu limitată de un program monoton. Vreau să învăț să cânt la chitară și la pian și poate la trombon. Vreau să joc în piese făcute de Ada Milea. Vreau să învăț să fac sculpturi din lut și din silicon și vreau să învăț să fac parfumuri și creme hidratante. Vreau să învăț să fac mobilă și căsuțe pentru păpuși și să tai lemne și mi-ar plăcea să învăț să fac tort de zahăr ars și plăcinte. Vreau să fiu o mamă care gătește într-una, dar vreau să fiu și o mama care știe să repare aragazul și chiuveta, vreau să știu dansa tango și să știu regulile la tenis de câmp și vreau să scriu o carte absurdă care să fie bună și vreau să fac și sală între timp sau poate yoga. Vreau să-mi fac o pagină de Instagram cu poze la lucruri care construiesc din greșeală fețe zâmbitoare și vreau să învăț să cos ca lumea la mașina de cusut ca să-mi fac haine pe care numai eu să le am. Vreau să mă duc în excursii la munte și să sparg roci ca să găsesc cristale și vreau să învăț despre plantele medicinale. Vreau să știu tot despre istoria și geografia socio-politică a lumii și vreau să am numai note de zece la tot și vreau să știu toți termenii economici și să știu codul muncii pe dinafară. Problema e că vreau toate astea deodată, în timp ce stau în pat dând nervos din picioare pentru că am multe de făcut, dar dintr-un motiv anume nu mă pot ridica. Problema e că vreau toate astea pentru un minut și după nu le mai vreau și după le vreau din nou, dar degeaba că nu mă apuc de nimic niciodată. Când ajung să încep ceva, prima inconveniență mă doboară. Cum adică nu sunt foarte bună la ceva ce am început acum 5 minute? Înseamnă că nu sunt făcută pentru asta și nu are rost să fac ceva la care nu voi fi niciodată cea mai bună din prima.`,
+        paragraph4: `Ușurința cu care mă plictisesc de orice și dorințele mele fugitive îmi ascund viitorul după un mare semn de întrebare.`,
+        paragraph5: `Mă simt complet pierdută când vine vorba de viitorul meu profesional. Mă decid pe o carieră și peste două săptămâni vreau alta. Nu vreau nimic de fapt și doar încerc să mă obișnuiesc cu ceva din nevoie. Nu înțeleg de ce este normal ca o astfel de decizie să fie luată de un copil în clasa a unșpea. Nu știu nimic și toată lumea știe că un copil de a unșpea nu știe nimic. Am o mie de dorințe care dispar și reapar, dar care nu sunt destul de intense ca să mă determine să lucrez pentru ele.`,
+        paragraph6: `Caut răspunsuri în cărți de tarot și în zațuri de cafea deși știu că e o copilărie.`,
+        paragraph8: `Mă rog să-mi pice răspunsul corect din cer, fără să trebuiască să mă gândesc eu prea mult pentru că de fiecare dată când mă gândesc la facultate și viitor mă doare capul în exact același loc mereu: în spatele urechii drepte. Dacă nu mă distrag, durerea se distribuie până la ochiul drept și imediat după, ochiul stâng începe să mi se zbată fără să-mi dau seama. Mi-ar plăcea să vină cineva la mine și să mă oblige să mă duc la POLI. Să-mi dea un ultimatum nerușinat. Să nu am nicicum o altă variantă, să fiu pur și simplu obligată. M-aș mulțumi. Dar cât timp există și o altă opțiune, nu voi putea fi împăcată pe deplin cu nicio decizie. E încăpățânare, e frică de incertitudine, e ego, nu știu. Mi-aș dori să-mi dicteze cineva viața și să accept fără să mă gândesc.`,
+        paragraph10: `Asta se întâmplă când nu ești bun la matematică în primară. `,
+        paragraph12: `Când ești bun la mate în primară te duci în gimnaziu cu mai multă încredere la matematică și de acolo te duci la mate-info cu încredere că știi matematică și de acolo ai mai multă încredere și la info și după te poți duce la UBB info sau la POLI calculatoare liniștit și gata, nu mai ai nicio grijă în viață. Felicitări! Ești inginer sau programator, ai salariu foarte bun și poți să-ți trăiești viața de clujean fericit și împăcat.`,
+        paragraph14: `Mi-aș fi dorit să fi fost bună la mate în primară.`,
+        date:  "25 Ianuarie, 2023",
+        author: "Daria Beșe"
+
+    },
+
+    {
+        id:10,
+        title: `Fallen Angels (1995) - o experiență cinematografică`,
+        category: 'Cultură',
+        color: '#CC704B',
+        time: '5 minute',
+        coverImg: '/assets/blogImages/cover/angels.png',
+        landscapeImg: '/assets/blogImages/landscape/angels.jpg',
+        description: `Nu cred că aș putea da vreodată un răspuns concret la intrebarea “Care este filmul tau preferat?”, însă, după câteva momente de gândire, unul care mi-ar veni in minte este cu siguranță Fallen Angels.`,
+        paragraph1: `Nu cred că aș putea da vreodată un răspuns concret la intrebarea “Care este filmul tau preferat?”, însă, după câteva momente de gândire, unul care mi-ar veni in minte este cu siguranță Fallen Angels.`,
+        paragraph2: `Încă din primele momente ale acestei capodopere, ne sunt prezentate cadre cu o cromatică ce ar da pe spate orice cinefil, care ne introduc în povestea asasinului de noapte Wong Chi-ming, un bărbat care dorește cu orice preț să scape de meseria sa necinstită. Un lucru pe care nu îl cunoaște el, însă, este faptul că partenera sa în crimă a dezvoltat o obsesie puternică pentru el, motiv pentru care apelează la o altă femeie, Blondie, pentru a-i satisface nevoile și pentru a uita de fosta parteneră.`,
+        paragraph3: `În cealaltă parte a orașului, însă, îl avem în prim-plan pe Ho-Chi-mo, un bărbat mut, recent eliberat din închisoare, care se îndrăgostește de Charlie, o femeie disperată să-l găsească pe fostul ei iubit, Johnny, deci sentimentul lui Charlie nu este reciproc. Motivul pentru care Ho-Chi-mo nu poate vorbi este unul comic: acesta a mâncat o conservă de ananas expirat când era mai mic.`,
+        paragraph4: `Aceste evenimente sunt doar începutul poveștii propriu-zise și partea cea mai puțin relevantă, ca să fiu sincer. Ce este cu adevărat de apreciat, totuși, este felul în care Wong Kar-Wai, revenind după succesul pe care l-a avut cu Chungking Express (1994), reușește să ilustreze, prin tehnici cinematografice aparte, o imagine nemaivăzută a Hong Kong-ului, cât și a cinema-ului asiatic de până atunci. Există o mulțime de cadre sau scene despre care aș putea vorbi, însă prefer să le las în articol pentru interpretarea voastră.`,
+        paragraph5: `De altfel, regizorul se întoarce, prin acest film, la tema iubirii neîmplinite, ea fiind redată prin ambele relații de dragoste ce apar în lungmetraj. Această neîmplinire nu este în zadar: la final, fiecare personaj ajunge să se cunoască mai bine, să învețe ceva despre propria persoană. Chiar dacă personajul nostru mut, Ho-Chi-Mo, nu ajunge cu persoana dorită, el află pentru prima oară în viață cum e să fie îndrăgostit și se simte împlinit, întâlnindu-se, chiar, la final, cu una dintre protagonistele primei părți ale filmului, cu agenta asasinului.`,
+        paragraph6: `Fallen Angels este, în ochii mei, un must-watch care surprinde o imagine superbă a Hong-Kongului, cât și două povești de dragoste asemănătoare cu cele din prequel-ul “Chungking Express”, motiv pentru care consider că orice pasionat de film ar trebui să îi dea o șansă măcar o dată în viață.`,
+
+        date:  "25 Ianuarie, 2023",
+        author: "Tudor Pop"
+
+    },
+
+    {
+        id:11,
+        title: `Woodstock '99`,
+        category: 'Cultură',
+        color: '#CC704B',
+        time: '7 minute',
+        coverImg: '/assets/blogImages/cover/woodstock.png',
+        landscapeImg: '/assets/blogImages/landscape/woodstock.png',
+        description: `Puţini sunt cei care nu au auzit de Woodstock. Mai mult de 500.000 de persoane s-au adunat la ceea ce avea să devină cea mai mare adunare paşnică de oameni din istorie. Woodstock ‘69, prima ediție a festivalului intitulat si “Trei zile de pace și muzică” a definit o generaţie întreagă și  pentru majoritatea lumii, acesta a reprezentat exemplul cel mai elocvent al contra-culturii anilor '60 și al curentului hippie. Mulţimea adunată la Woodstock a trimis un mesaj întregii lumi: că indivizii pot trăi în pace celebrând viaţa şi muzica. `,
+        paragraph1: `Puţini sunt cei care nu au auzit de Woodstock. Mai mult de 500.000 de persoane s-au adunat la ceea ce avea să devină cea mai mare adunare paşnică de oameni din istorie. Woodstock ‘69, prima ediție a festivalului intitulat si “Trei zile de pace și muzică” a definit o generaţie întreagă și  pentru majoritatea lumii, acesta a reprezentat exemplul cel mai elocvent al contra-culturii anilor '60 și al curentului hippie. Mulţimea adunată la Woodstock a trimis un mesaj întregii lumi: că indivizii pot trăi în pace celebrând viaţa şi muzica.  `,
+        paragraph2: `Acum că am introdus mărețul festival, ne vom concentra pe ediția cu cel mai mare impact dintre toate. Woodstock ‘99. O ediție de vis din punct de vedere al artiștilor programați, printre care se numără și Metallica, The Who, Red Hot Chili Peppers și Foo Fighters. Dacă ești un iubitor al rock-ului(folk, blues, hard, alternative, grunge,  indie, punk, psychedelic, dar și alte subgenuri), Woodstock ‘99 este probabil o fantezie pentru tine. Așa vedeam și eu ediția ‘99, cu adorație și imensă gelozie căci nu am putut participa. Asta pană să aflu ce s-a întâmplat. `,
+        paragraph9: `Catastrofă. Dramă. Tragedie. Urgie. Calamitate. Năpastă. Fiasco.`,
+        paragraph10: `Așa cum e de așteptat, organizatorii și-au propus ca ediția să fie mai reușită decât precedentele, cu mai puține probleme. ( În ‘69, problema majoră a fost vremea: noroi oriunde ai călca și ploaie extremă. Din cauza ploii, membrii The Grateful Dead se electrocutau cu 30-35 volți de fiecare dată când atingeau corzile chitărilor. Dar hey, măcar au fost prezenți Santana atunci! În ‘94? Solistul trupei Jackyl a tras cu pistolul de pe scenă. Dar hey, măcar au fost prezenți Greenday atunci!) Ai spune că mai rău decât artiști electrocutați și focuri de pistol nu se poate, ei bine… Se știe că temperatura din perioada festivalului din ‘99 era imensă, dar odată cu creșterea ei, creștea și haosul. Inițial dăm de concertul Limp Bizkit, unde odată cu piesa Breaking Things, mulțimea începe să smulgă părți din șcenă. Inconștient, solistul Fred Durst încurajează mulțimea, spunându-le să se elibereze, căci aici nu există reguli. Red Hot Chili Peppers au urmat imediat după. O idee drăguță (oare?) din partea organizatorilor a fost să ofere fiecărui spectator o lumânare aprinsă pentru a crea o atmosferă cum nu a mai fost la niciun alt festival. Așa și a fost. Parte din public a început să transforme lumânările în artificii și din greșeală, una din schelele scenei a luat foc. Pompierii au fost chemați, în timp ce Red Hot Chili Pepper și-au continuat performarea. Apoi au redat “Fire” - piesa lui Jimi Hendrix. Acela a fost momentul de varf, care a declanșat adevăratul fiasco. Multe focuri imense ardeau în timp ce trupa cânta inoportun piesă “Fire”, iar spectatorii dansau în cercuri în jurul focurilor. În căutarea mai multor combustibili, unii au rupt placajele din gardul perimetral. Bancomatele au fost răsturnate și sparte, remorcile pline de mărfuri și echipamente au fost deschise și jefuite, iar tarabele de vânzări au fost răsturnate și incendiate.`,
+        paragraph12: `MTV, care filma live festivalul a declarat: “Era periculos să fii în preajmă. Întreaga scenă era înfricoșătoare. Era clar că trebuia să ieșim de acolo ... Era ca un lagăr de concentrare. Plin de furie, pericol și răniți.“`,
+        paragraph14: ` Chad Smith, toboșarul trupei, a explicat că performarea piesei lui Hendrix- “Fire” nu a fost cu scopul de a încuraja mulțimea la revoltă  și ardere în masă, ci deoarece sora lui Hendrix le-a cerut sa cante piesa drept omagiu adus artistului ce nu mai putea participa la acest festival pe care l-a îndrăgit atât de mult încă din ‘69. Cu intenție rea sau nu, catastrofa s-a întâmplat oricum. Mulți participanți au avut de suferit, fizic sau/și psihic, iar acum, pot afirma ca sunt împăcată cu faptul că nu am fost totuși prezentă:) Cu siguranță mulți dintre noi tânjim la un festival cu asemenea artiști performanți, dar Woodstock ‘99 nu e cea mai sigură și frumoasă alegere(asta dacă nu ești un fanatic al haosului, focului măcinător și îngrămădelii copleșitoare din timpul revoltelor:))`,
+        paragraph16: `Astfel, festivalul cunoscut pentru pace, iubire și idealism hippie a fost marcat permanent de revolte, jafuri, numeroase atacuri și marele foc ce a transformat Woodstock ‘99 în fum și scrum.`,
+        paragraph18: `Pentru a simți până în măduva oaselor și partea buna a festivalului, aveți un playlist cu hiturile acestui festival, inclusiv măreața și de neuitata piesă “Fire” ;)`,
+
+        music: '7GDLiKjb1WmD7BDE8tHV20?',
+        type: 'playlist',
+
+        author: 'Alexia Marchiș',
+        date: '11 Ianuarie, 2023'
+    },
+
+    {
+        id: 12,
+        title: "Cafeluța de dimineață",
+        category: "Social",
+        color: '#A19664',
+        time: '10 minute',
+        coverImg: '/assets/blogImages/cover/coffee.jpg' ,
+        landscapeImg: '/assets/blogImages/landscape/coffee.jpg',
+        description: 'De unde a apărut dependența asta de cafeluță? De la mama? De la stresul zilnic? De la ora de bio? Ei bine, cel mai probabil nu o să-ți pot da un răspuns sigur la această întrebare (totuși, bine de ținut minte, toate lucrurile rele se întâmplă din cauza orei de bio!!!) Tot ce știu e că dependența de cafeluță is a real thing and we have to deal with it.',
+        paragraph1: 'De unde a apărut dependența asta de cafeluță? De la mama? De la stresul zilnic? De la ora de bio? Ei bine, cel mai probabil nu o să-ți pot da un răspuns sigur la această întrebare (totuși, bine de ținut minte, toate lucrurile rele se întâmplă din cauza orei de bio!!!) Tot ce știu e că dependența de cafeluță is a real thing and we have to deal with it.',
+        paragraph2: 'Când auzim cuvântul „dependență” ne gândim, automat, la ce e mai rău. Dar, între noi fie vorba, cum ar putea fi cafeluța ceva rău? Mergi către scoală, e frig de îngheață apele (mai e și luni, așa ca bonus), îți pică ochii în gură de somn, dar, cumva, mai ai timp să mergi să-ți iei o cafeluță. Intri în cafenea, e coadă bineînțeles și ești stresat că „dacă întârzii la prima oră?” care se întâmplă să fie fix aia de bio. Înaintezi șontâc-șontâc, cu viteza melcului turbat, dar în cele din urmă ajungi să comanzi cafeluța…',
+        paragraph3: 'Cafeluța e acum în posesia ta. Și decizi să iei o gură. Știi cum e în reclamele alea extrem de proaste în care, pentru a evidenția impactul pe care îl are produsul asupra cumpărătorului, timpul pare că se oprește? No păi, așa îi și cu prima gură de cafeluță. Pentru câteva (mult prea scurte) secunde, savurezi cafeluța de parcă doar tu și cu ea ați mai fi pe pământ. Timpul stă în loc și-ți permite să te bucuri de băuturica fierbinte din mâna ta, în liniște (fără să te streseze școala sau viața în general).',
+        paragraph4: 'În cele din urmă ești nevoit să ieși din nou în frigul aspru și necruțător al dimineții de luni, dar parcă e puțin mai cald acum că ai deja cafeluța în sistem. Mergi către scoală, mai iei o gură și încă una și tot bei. „Poate azi n-o să fie o zi așa de rea!” te minți singur, hipnotizat de efectul cafeluței asupra creierului tău încă adormit. Cu toții știm că azi va fi o zi rea. E luni, nu se poate altcumva. Dar iluzia oferită de cafeluță îți dă încredere că trăiești într-o lume mai bună și că „poate azi va fi diferit.”',
+        paragraph5: 'Să revenim, totuși, care e faza cu dependență de cafeluță? Conform American Chemical Society: „Cafeina este cel mai utilizat drog de pe Terra”. Deci dacă răspunzi cu „Nu” când cineva te întreabă „Ai consumat până acum droguri?”, tehnic mințiți (just so you know). Bineînțeles, nu se moare de la cafeluță. Stai liniștit! Dar, deși iubim cafeluța, nu e bine să o consumăm în cantități mari, frecvent.',
+        paragraph6: 'În concluzie, ține minte că o cafeluță este o cană de fericire care te ajută să treci peste diminețile dificile de luni și să cooperezi cu gerul de afară (vorbesc din proprie experiență). However, cafeluța în exces aduce lucruri rele și te seacă de bani at some point (sadly, tot din proprie experiență zic). Un ultim gând către tine, drag cititor: Îmi iei, te rog, și mie o cafeluță mâine dimineață, că nu știu cum fac, dar niciodată n-ajung la timp?',
+
+        author: "Madi Blaga",
+        date: "11 Ianuarie, 2023"
+
+    },
+
+    {
+        id:13,
+        title: 'Globuri și Copii ',
+        category: 'Interact Transilvania',
+        color: '#3A8891',
+        time: '7 minute',
+        coverImg:'/assets/blogImages/cover/copii.jpg',
+        landscapeImg:'/assets/blogImages/landscape/copii.jpg',
+
+        description: ' Acum cateva zile am avut plăcerea de a cunoaște câțiva copii minunați cu care am reușit, împreună cu echipa Interact Transilvania, să împărtășesc câteva clipe frumoase. În cadrul proiectului nostru am contactat “Căsuța Bucuriei”, un orfelinat pentru copiii care nu au o situație familială atât de plăcută ca majoritatea dintre noi. Pe parcursul gândirii evenimentului am avut două obiective principale. Pe lângă dorința de a picta și cânta împreună cu copiii frumoși și talentați cu care ne-am și împrietenit, scopul nostru concret a fost să donăm Căsuței Bucuriei.',
+        paragraph1: ' Acum cateva zile am avut plăcerea de a cunoaște câțiva copii minunați cu care am reușit, împreună cu echipa Interact Transilvania, să împărtășesc câteva clipe frumoase.',
+        paragraph2: 'În cadrul proiectului nostru am contactat “Căsuța Bucuriei”, un orfelinat pentru copiii care nu au o situație familială atât de plăcută ca majoritatea dintre noi. Pe parcursul gândirii evenimentului am avut două obiective principale. Pe lângă dorința de a picta și cânta împreună cu copiii frumoși și talentați cu care ne-am și împrietenit, scopul nostru concret a fost să donăm Căsuței Bucuriei.',
+        paragraph3: 'Astfel, globurile pictate de elevii de primară ai școlilor Gheorghe Șincai și George Coșbuc au fost oferite oamenilor în schimbul donațiilor făcute. Copiii cu vârste cuprinse între 6 și 15 ani ne-au întâmpinat încă din prima secundă cu brațele deschise. Ne-au făcut să ne simțim ca și acasă.',
+        paragraph4: 'Odată începută partea artistică am fost surprinși să vedem niște copii cuminți, harnici și mai presus de toate, foarte talentați care s-au bucurat să audă poveștile de Crăciun ale invitatului nostru special, Moșul. Curioși din fire, copiii au avut multe întrebări pentru Moșul. Dieta renilor a fost totuși subiectul care a stârnit cel mai mult interes din partea lor. Conversațiile avute i-au convins că “Moșul chiar e Moșul”, lucru care i-a făcut să se deschidă și mai tare și să ne povestească tot mai multe. Pentru câteva ore am devenit toți ajutoarele moșului, spiriduși sau chiar Doamna Crăciun.',
+        paragraph5: 'De îndată ce am terminat cu toții de pictat globurile, copiii au asistat la un moment artistic susținut la pian de către colegul nostru, Ștefan. Acesta a cântat câteva sonate. Ne-a luat prin surprindere pe toți cu talentul său muzical. Copiii au râs, au aplaudat, au dorit chiar să învețe și ei să cânte, lucru de care suntem foarte fericiți și le felicităm interesul. Sesiunea de joacă de după a fost și ea plăcută. Am ascultat muzică, am făcut poze și am discutat o perioadă bună de timp.',
+        paragraph6: 'Totul s-a terminat pe cât de repede a și început. Între jocuri, cântece, pictură și discuții nu a mai rămas timp de plictiseală. Sperăm sa îi revedem cât mai curând, deoarece toți din echipă am stabilit conexiuni cu copiii. Acestea fiind spuse, echipei Interact îi e tare dor de râsetele copiilor și sperăm să îi revedem cât mai curând.',
+
+        author: "Paul Hedeșiu",
+        date: "11 Ianuarie, 2023"
+    },
+
+    {
+        id:14,
+        title: 'În conversație cu noua generație de poeți',
+        category: 'Interact Transilvania',
+        color: '#3A8891',
+        time: '15 minute',
+        coverImg:'/assets/blogImages/cover/poets.jpg',
+        landscapeImg:'/assets/blogImages/landscape/poets.png',
+        description: 'Vinerea trecută, membrii Interact au avut ocazia de a face cunoștință mai bine cu o mână de poeți, care împing arta poeziei mai departe, în pofida faptului că la suprafață această artă pare a fi într-o stare latentă.',
+        paragraph1:'Vinerea trecută, membrii Interact au avut ocazia de a face cunoștință mai bine cu o mână de poeți, care împing arta poeziei mai departe, în pofida faptului că la suprafață această artă pare a fi într-o stare latentă.',
+        paragraph2: 'Dacă doriți să aflați mai multe despre evenimentul organizat, avem un alt articol care descrie pe larg cele desfășurate în cadrul proiectului ',
+        paragraph3:'Prima poetă pe care am avut plăcerea de a o intervieva este Olga Ștefan.',
+        q1:'De ce ați ales poezia dintre toate genurile literare?',
+        paragraph4:'Așa s-a întâmplat să fie, genul în care m-am manifestat liber, ca să spun așa, deși am încercat să scriu și proză, și am chiar scris eseu, și mi-am scris teza de doctorat, care a fost o lucrare științifică, doar că mi s-a părut că poezia e genul prin care mă exprim cel mai bine. Chiar dacă pare un gen mai puțin lucrativ, sunt mai puține șanse să ajungi best-seller în poezie. Totuși am considerat că e mai important pentru mine să fiu autentică, decât să fiu succes de piață.',
+        q2:'Care e sursa de inspirație pentru poeziile tale?',
+        paragraph5:'Oh, aproape orice mă inspiră! Tot timpul mi se pare că-s cu simțurile extrem de ascuțite. Și scriind atâta timp, nici nu-mi amintesc cum e să nu scrii, să nu ai varianta asta dublă de a vedea lumea. Așa că eu sunt de acord cu idea că orice poate deveni o sursă de inspirație, și nu pun originalitatea tematică pe primul loc, ci felul în care îți rafinezi ulterior ideile. Poți să scrie despre orice, chiar dacă pare clișeu, s-ar putea să nu fie că e perspectiva ta asupra acelui lucru.',
+        q3:'Cum ai descoperit această pasiune?',
+        paragraph6:'Am început să scriu când aveam 8 ani, și e o poveste mai veche. Din ce îmi mai amintesc eu, mi-am dorit să primesc o dictare, dar părinții mei nu erau acasă, și m-am gândit că pot să-mi dau singură. Așa că am descoperit prin joacă, ca toate marile adevăruri și pasiuni. Așa că da, am descoperit destul de devreme, sau foarte devreme. Mai păstrau bunicii mei niște casete pe care mă înregistrau citind poezii de-ale altora, dar la un moment dat era ceva ce nu identificau, așa că se pare că din totdeauna am vrut să scriu. Și părinții mei erau pasionați de poezie, așa că aveam multe volume de poezie în casă.',
+        q4:'Crezi că dacă părinții tăi nu ar fi fost pasionați de poezie, ai mai fi ajuns să scri?',
+        paragraph8:'Cred că aș fi scris, dar poate pe alt filon, adică nu pot să nu recunosc faptul că a avut o mare importanță încurajarea lor. Ei m-au propulasat și contează mult pentru un copil să se simtă sigur în felul în care se exprimă.',
+        q5:'Ce părere ai de grupurile de poezie din  România și felul în care ajută poeții?',
+        paragraph10: 'Având în vedere că eu am prins și perioada în care trebuia să plătești ca să fi publicat, și apoi tot tu să te ocupi de promovare, suntem la ani lumină față de ce se întâmpla în anii 90”. Mi se pare extraordinar că există un loc pentru fiecare voce, fiecare generație. Atmosfera e una cordială.',
+        q6: 'Ce ai spune pentru a încuraja un tânăr să-și urmeze pasiunea pentru a scrie poezie?',
+        paragraph12: 'Păi în primul rând să continue să scrie, indiferent de circumstanțe. Își dă singur seama dacă ăsta e drumul lui. Nu există rețeta perfectă pentru a scrie bine sau rău.',
+        paragraph14: 'Urmează interviul acordat lui Paul Precup Mark.',
+        paragraph16: 'Am început să citesc proză inițial, pentru că presupun că orice copil începe să citească proză la început. Vedeam poezia ca pe ceva foarte liniar, tot timpul vedeam “de ce rimează asta?”. Și doar anul ăsta am văzut poezia modernă și am văzut că nu totul trebuie să rimeze, dar trebuie să te facă să simți ceva. Asta m-a atras spre poezie, deoarece eu sunt un om foarte sentimental.',
+        paragraph18: 'Cred că sursa de inspirație poate să fie orice, un cuvânt mic auzit pe stradă, pe care mai apoi îl incorporezi în poezia mea, un loc, muzica, muzica mai ales de fapt. Tot ce ascult face parte din versurile mele într-o formă.',
+        q7: 'Ce poeți (contemporani sau nu) te inspiră?',
+        paragraph20: 'Cred că preferatul meu dintre toți poeții contemporani care m-au inspirat foarte mult e Florentin Popa, și pe cealaltă parte a globului e Frank O`Hara.',
+        paragraph21: 'Cred că organizațiile acestea sunt foarte folositoare, mai ales în promovarea tinerilor scriitori care abia acum și-au început cariera. Mi se pare că e un demers foarte frumos promovarea poeziei contemporane, pentru că avem nevoie de chestia asta, pentru că nimeni nu mai citește, în special poezie.',
+        paragraph22: 'Scrieți, scrieți efectiv ceea ce sunteți, scrieți fără boundaries, doar faceți-o.',
+        paragraph23: 'Ultima poetă intervievată e Lena Chilari.',
+        paragraph24: 'De fapt, mi-am dorit să scriu proză foarte mult, doream să scriu un roman despre o relație toxică mamă-fiică, bazată pe relația mea. Însă profesoara mea din anul II m-a descurajat, spunând că cineva a scris deja un astfel de roman. Cumva am simțit că m-a demoralizat treaba asta, și atunci am realizat că poezia e locul unde eu mă pot desfășura, unde există un spațiu nemărginit pentru tot ce vreau să scriu.',
+        paragraph25: 'Viața! În momentul în care începi să scri poezii, și îți dai seama că ești poet sau poetă, nu mai e cale de întoarcere, totul te inspiră. Viața de zi cu zi și cotidianul e inspirația mea pentru poezie.',
+        paragraph26: 'Te rog să scri, te rog să ai încredere în tine. O să fie foarte mulți oameni care o să-ți spună că nu ești bun, dar trebuie să continui. Trebuie să consideri poezia viața ta, sensul ei.',
+        q8: 'Ce simți când lumea îți citește poezia?',
+        paragraph27: 'Aoleu! Depinde ce poezie, dacă-s poemele de dragoste, mi-e rușine. Îmi doresc să ajung o poetă care scrie despre dragoste și corporalitate la fel de bine că și Olga Ștefan sau Mădălina Cauneac sau Raluca Boantă, dar nu consider că sunt încă acolo. În momentul în care cineva îmi citește poezia și se regăsește în ea, și sunt niște poeme în care am încredere, sunt foarte încântată! Cel mai mult mă interesează în poezie să vină din urma mea o comunitate poetică tânără care o să o preia.',
+        date:  "14 Decembrie, 2022",
+        author: "Maria Popa"
+
+    },
+
+    {
+        id:15,
+        title: 'Despre Pălăvrăgeală Poetică',
+        category: 'Interact Transilvania',
+        color: '#3A8891',
+        time: '20 minute',
+        coverImg:'/assets/blogImages/cover/palavrageala.jpg',
+        landscapeImg:'/assets/blogImages/landscape/palavrageala.jpg',
+        description: '“Poezia este limbajul prin care omul își explorează propria sa uimire” (Christopher Fry). La Pălăvrăgeală poetică, noi, Interact Transilvania, ne-am dorit să aducem împreună tineri poeți, să le oferim șansa de a se exprima în modul lor unic și artistic, fiind ascultați de oameni capabili să îi înțeleagă. Fiecare poezie e o experiență, o fereastră spre lumea interioară a fiecărei persoane în parte. Ne bucurăm că am avut onoarea de a întâlni atâția oameni dispuși să își deschidă ușile sufletului și să ne ofere puțin din viețile lor. “Poezia trebuie să impresioneze cititorul ca și cum cuvintele ei ar fi propriile lui gânduri sau aproape o amintire din viața lui.” (John Keats). Ne-am dorit ca tinerii poeți să se simtă înțeleși.',
+        paragraph1: '“Poezia este limbajul prin care omul își explorează propria sa uimire” (Christopher Fry). La Pălăvrăgeală poetică, noi, Interact Transilvania, ne-am dorit să aducem împreună tineri poeți, să le oferim șansa de a se exprima în modul lor unic și artistic, fiind ascultați de oameni capabili să îi înțeleagă. Fiecare poezie e o experiență, o fereastră spre lumea interioară a fiecărei persoane în parte. Ne bucurăm că am avut onoarea de a întâlni atâția oameni dispuși să își deschidă ușile sufletului și să ne ofere puțin din viețile lor. “Poezia trebuie să impresioneze cititorul ca și cum cuvintele ei ar fi propriile lui gânduri sau aproape o amintire din viața lui.” (John Keats). Ne-am dorit ca tinerii poeți să se simtă înțeleși.',
+        paragraph3: 'În a doua parte a pălăvrăgelii poetice a avut loc un workshop de creare de poezii. Participanții au fost puși în grupe și au extras câte un bilețel cu un cuvânt, în jurul căruia au creat împreună o poezie, pe care, la final, au împărtășit-o cu toți restul. Scopul acestui workshop a fost să îi determinăm pe tinerii poeți să se cunoască între ei, împărțind o pasiune comună.',
+        paragraph4: 'Cauza evenimentului a fost susținerea ONG-ului A.L.E.G., specializat pe combaterea și prevenirea violenței împotriva femeilor și care promovează egalitatea de gen. Această organizație sprijină construirea de grupuri suport la nivel național și local și oferă ocazia femeilor de a-și împărtăși experiențele și de a-și depăși temerile, sub îndrumarea specialiștilor.',
+        paragraph5: 'Iată câteva poezii care au fost citite la Pălăvrăgeală:',
+        paragraph7: '"Fii întotdeauna un poet, chiar și în proză." (Charles Baudelaire)',
+
+        date:  "14 Decembrie, 2022",
+        author: "Mălina Bochiș"
+    },
+    
+    {
+        id:16,
+        title: 'Taylor Swift',
+        category: 'Cultură',
+        color: '#CC704B',
+        time: '10 minute',
+        coverImg: '/assets/blogImages/cover/taylor.jpg',
+        landscapeImg: '/assets/blogImages/landscape/taylor.jpg',
+        description: 'Taylor Swift a reușit ceea ce niciun alt artist nu a mai reușit până acum: a acaparat primele zece locuri ale „Billboards 100” într-o singură săptămână cu ajutorul noului său album numit Midnights. Asta e o știre relativ veche, dar trebuie să recunoaștem că este una ce provoacă senzație în rândurile publicului. Artista a reușit să monopolizeze întreaga industrie pop și va fi cu siguranță un punct de reper în viitorul direcției acesteia.',
+        paragraph1: 'Taylor Swift a reușit ceea ce niciun alt artist nu a mai reușit până acum: a acaparat primele zece locuri ale „Billboards 100” într-o singură săptămână cu ajutorul noului său album numit Midnights. Asta e o știre relativ veche, dar trebuie să recunoaștem că este una ce provoacă senzație în rândurile publicului. Artista a reușit să monopolizeze întreaga industrie pop și va fi cu siguranță un punct de reper în viitorul direcției acesteia.',
+        paragraph2: 'Totuși, de ce e Taylor Swift atât de populară? Poate părea o întrebare ironică . Cu toate acestea, nu putem să tratăm cu indiferență acest subiect. Nu are rost să folosesc statistici pentru a atesta popularitatea acestei cântărețe, nu doresc să folosesc numere în articol, doar nu suntem la matematică, dar mi-ar plăcea să analizez alături de cititor varietatea de melodii pe care cântăreața le-a compus. Consider că acest mod a răspunde la întrebarea adresată de află lla granița dintre obiectiv și subiectiv.',
+        paragraph3: 'Acum e momentul oportun „să intrăm în pâine”. Artista acoperă marea majoriate a subgenurilor de pop, ba chiar există și o împletire a discografiei sale cu muzica country. Primele sale albume se învârt în jurul acestei sfere, iar tranziția spre pop culture se face treptat. De asemenea,ritmul și linia melodică sunt diferite în fiecare dintre melodii. Nu se poate spune că Alice in Wonderland seamănă cu All you had to do was stay, chiar dacă cele două cântece menționate anterior fac parte din același album. Când încercăm să asemănăm melodii din albume diferite observăm că diferența e și mai mare: Maroon, 22(nu m-am ținut de promisiune cu numerele), Gorgeous, Better than Revenge și Mirrorball nu pot fi asemănate în niciun fel, fiecare făcând parte din alt subgen al muzicii pop: Dance Pop, Disco, Alternative, Indie sau rock pop.',
+        paragraph4: 'Pe lângă această diversitate sonoră o mai avem și pe cea a temelor abordate. Iubirea în toate formele sale- toxică, nereușită, împlinită, la momentul inoportun; prietenia, autoizolarea, familia, nostalgia, nevoia de răzbunare, dezvoltarea personală, dar și pierderea unei persoane iubite reprezintă câteva dintre subiectele pe baza cărora construiește operele. ',
+        paragraph5: 'Grandoarea cu care compune versurile joacă din nou un rol important. Un bun exemplu poate fi regăsit în melodia The Lakes: „I want auroras and sad prose/ I want to watch wisteria grow right over my bare feet/ Cause I haven`t moved in years/ And I want you right here”. Bucuria pe care naratorul o găsește în momentele de singurătate alături de persoana iubită este îmbătătoare, intimă și misterioasă. Poate vă întrebați de ce am folosit termenul de narator și nu am spus artista. Albumul folklore este scris cu scopul de a rememora iubirea din tinerețe de mult pierdută . Betty, după 20 de ani de la întâmplări, își readuce aminte cu nostalgie de relația sa cu James care s-a sfârșit din cauza infidelității acestuia. Băiatul a încercat să o recucerească, însă scuzele nu au mai avut efect asupra protagonistei. Cu toate că relația celor doi a lăsat o urmă adâncă în sufletul lui Betty, ea decide să gestioneze situația rațional cu speranța că, în viitor, va privi în urmă și va fi mândră de decizie.',
+        paragraph6: 'Acestea fiind spuse, artista a ajuns la faima de care se bucură în prezent datorită talentului său în alcătuirea unor melodii relatabile oricărei persoane și care încântă ascultătorul. Și haideți să fim serioși, cui i-ar displăcea o artistă capabilă să creeze emoții atât de palpabile prin compozițiile sale și căreia îi plac pisicile',
+        paragraph8: '*voi atașa și un mic playlist ca să fie treaba treabă*',
+        music: '4usEAaMz3XOyqH5trU2U7r',
+        type: 'playlist',
+
+        author: 'Dalia Sintejudean',
+        date: "14 Decembrie, 2022"
+    },
+
+    {
+        id:17,
+        title: 'Odd Future- o scurtă istorie',
+        category: 'Cultură',
+        color: '#CC704B',
+        time: '5 minute',
+        coverImg: '/assets/blogImages/cover/oddfuture.jpg',
+        landscapeImg: '/assets/blogImages/landscape/oddfuture.jpg',
+        description: 'Când vine vorba de muzică rap, nu există persoană care să nu fi auzit de unicul Tyler, The Creator. Fie că ați auzit de el prin IGOR, sau prin albumele sale mai vechi (toate un succes în mainstream), e categoric faptul că sunetul creat de el este unul recunoscut de către toți pasionații, fiind în continuă evoluție. Totuși, el nu a început singur, ci chiar într-un music collective cu o selecție de membri foarte interesantă, numit Odd Future sau, după numele complet, Odd Future Wolf Gang Kill Them All (OFWGKTA).',
+        paragraph1: 'Când vine vorba de muzică rap, nu există persoană care să nu fi auzit de unicul Tyler, The Creator. Fie că ați auzit de el prin IGOR, sau prin albumele sale mai vechi (toate un succes în mainstream), e categoric faptul că sunetul creat de el este unul recunoscut de către toți pasionații, fiind în continuă evoluție. Totuși, el nu a început singur, ci chiar într-un music collective cu o selecție de membri foarte interesantă, numit Odd Future sau, după numele complet, Odd Future Wolf Gang Kill Them All (OFWGKTA).',
+        paragraph2: 'OF a fost fondat în anul 2007 de către Tyler împreună cu Left Brain, Hodgy si Jasper, iar în anul 2008 era deja lansat primul lor mixtape, numit The Odd Future Tape. Partea cea mai bună însă a fost anul de după, atunci când membri precum Earl Sweatshirt, Frank Ocean(nu putea lipsi), Mike G sau Domo Genesis s-au alăturat grupului. OF a ajuns si în mainstream la 2 ani distanță, datorită lansării albumului Goblin al lui Tyler, cu piesa virală "Yonkers", al cărei video îl arată pe artist mâncând un gândac, motiv pentru care a devenit și faimos. Între 2012 și 2013 a apărut și albumul lor de studio(OF Tape vol. 2), care avea piesa Oldie, un cypher (sesiune de freestyle de la mai mulți rapperi) de 10 minute cu versuri de la fiecare membru. Această perioadă a reprezentat și apogeul grupului, fiind urmată și de o lansare a brandului de haine OF, precum și a unui serial pe Adult Swim - Loiter Squad.',
+        paragraph3: 'Totuși, toate lucrurile bune trebuie să aibă un sfârșit, iar OFWGKTA l-a avut în anul 2015, atunci când Tyler a anunțat într-un tweet că, citând, “Odd Future are no more”, lucru accentuat mai departe și în melodia sa OKRA, lansată în anul 2018. Așadar, după ani buni de activitate, Odd Future se destramă, însă impactul pe care l-a lăsat în urmă și artiștii excepționali care s-au dezvoltat în cadrul acestui grup îl fac unul dintre cele mai bune collective-uri de hip-hop care au existat vreodată, artiștii lăsând în urmă albume precum Some Rap Songs, Blonde, Flower Boy, WOLF sau Ego Death.',
+        paragraph4: 'Și pentru că articolul nu se poate încheia fără o recomandare, un album pe care l-aș propune este Channel Orange de la Frank Ocean, albumul său R&B de debut, pentru care acesta a câștigat și un grammy. Spor la ascultat! ',
+       
+        music: '392p3shh2jkxUxY2VHvlH8',
+        type: 'album',
+
+        author: 'Tudor Pop',
+        date: "14 Decembrie, 2022"
+    },
+    
+    {
+        id: 18,
+        title: "Winter fashion",
+        category: 'Cultură',
+        color: '#CC704B',
+        time: '5 minute',
+        coverImg: '/assets/blogImages/cover/outfit.jpg' ,
+        landscapeImg: '/assets/blogImages/landscape/outfit.jpg',
+        description: '"De ce toată lumea se îmbracă brusc atât de bine?", aceasta este o întrebare pe care și-o pun majoritatea oamenilor interesați mai mult sau mai puțin de modă de îndată ce sosește sezonul paltoanelor, al fularelor, eșarfelor lungi și al bocancilor înalți. Așadar, ce face fashion-ul din acest anotimp atât de interesant din punct de vedere estetic și care este precursorul acestui stil in alte epoci istorice?',
+        paragraph1: '"De ce toată lumea se îmbracă brusc atât de bine?", aceasta este o întrebare pe care și-o pun majoritatea oamenilor interesați mai mult sau mai puțin de modă de îndată ce sosește sezonul paltoanelor, al fularelor, eșarfelor lungi și al bocancilor înalți. Așadar, ce face fashion-ul din acest anotimp atât de interesant din punct de vedere estetic și care este precursorul acestui stil in alte epoci istorice?',
+        paragraph2: 'Majoritatea persoanelor interesate de fashion știu că unul dintre cele mai importante lucruri când vine vorba de calitatea unui outfit este dacă acesta arată bine din punct de vedere proporțional. Standardele de frumusețe actuale pun un accent sporit pe înălțime, lucru evident odată cu urmărirea oricărei prezentări de moda. Acest fapt vă oferă un răspuns simplu, hainele de iarna tind să facă silueta umană să pară mai înaltă și zveltă. Acum poate vă întrebați: ”Ok, ok, dar cu ce schimbă asta modul în care-i vedem pe ceilalți?”, răspunsul este, și în acest caz, foarte simplu. Majoritatea suntem obișnuiți sa prețuim calitățile considerate atractive în vremea noastră fără a ne da măcar seama. Acest lucru devine ușor deductibil cand sesizăm cum trendurile în materie de moda fluctuează de la an la an sau chiar de la sezon la sezon.',
+        paragraph3: 'În ciuda zecilor de "microtrenduri" care apar și dispar an de an, valorile, așteptările și modul de gandire vis-a-vis de moda în cadrul sezonului rece tind, în mare parte, să se păstreze. Pe langa prețul pus pe înălțimea siluetelor care e accentuată  de paltoane și bocanci, condițiile meteorologice impuse de anotimpul rece stopeaza, to an extent, captura pe care consumerismul dus la extrem o are asupra industriei modei.',
+        paragraph4: 'În finalul acestui articol doresc să prezint și câțiva creatori de moda sau case de moda care au ajutat la definirea fashion-ului iarna și la crearea a ceea ce cunoaștem noi ca și un "cozy fit"',
+        paragraph5: 'Issey Miyake - decedat in 5 august 2022, creatorul japonez care a reușit să se remarce prin introducerea și popularizarea pieselor lungi și tricotate care variază în culori. În plus, Miyake este primul creator de moda care a adus “Couture-ul”  francez în japonia, de unde acesta a explodat în popularitate',
+        paragraph6: 'Diesel - brandul creat în 1978 este primul din istorie care a popularizat la acest nivel noțiunea de "denim" care era practic inexistentă  până atunci. Ei au introdus gecile de tip blug, până la talie, îmblănite pe dinăuntru ',
+        paragraph8: 'Miu Miu - recunoscuți în lumea fashion-ului ca mari amatori de trench-uri și de paltoane, Miu Miu continuă să popularizeze în randul generatiilor actualmente tinere ținutele iernilor anilor 70-80',
+
+        author: "Paul Hedeșiu",
+        date: "30 Noiembrie, 2022"
+    },
+
+    {
+        id: 19,
+        title: 'Recenzie carte - "O altă țară"',
+        subtitle: "Gata să izbucnească în muzică sau în flăcări sau o revelație",
+        category: 'Cultură',
+        color: '#CC704B',
+        time: '5 minute',
+        coverImg: '/assets/blogImages/cover/another_country.jpg' ,
+        landscapeImg: '/assets/blogImages/landscape/another_country.png',
+        description: 'O mică faptă neconfirmată istoric este că James Balwin nu a dorit să aducă această carte neterminată într-o încă "altă țară". Indiferent cât de adevărat sau fals ar fi acest mit oral, un adevăr rămâne constant: James Baldwin a călătorit toată viața lui (de la frageda vârstă de 17 ani când a fugit din nativul Harlem spre Greenwich Village), mereu în căutarea unei noi surse de inspirație. Cartea ”O altă țară” nu e o excepție la acest fenomen de migrare al lui Baldwin, ci chiar cartea care l-a adus din Parisul drag în Instanbul, unde o și termină.',
+        paragraph1: 'O mică faptă neconfirmată istoric este că James Balwin nu a dorit să aducă această carte neterminată într-o încă "altă țară". Indiferent cât de adevărat sau fals ar fi acest mit oral, un adevăr rămâne constant: James Baldwin a călătorit toată viața lui (de la frageda vârstă de 17 ani când a fugit din nativul Harlem spre Greenwich Village), mereu în căutarea unei noi surse de inspirație. Cartea ”O altă țară” nu e o excepție la acest fenomen de migrare al lui Baldwin, ci chiar cartea care l-a adus din Parisul drag în Instanbul, unde o și termină.',
+        paragraph2: "Cartea prezintă dramele a unui grup de prieteni (ocazional amanți, vechi legături de mult destrămate sau rivali ascunși) pe fondul nașterii scenei de jazz a New Yorkului anilor 50`.  Toată acțiunea pornește de la Rufus, un toboșar strălucit dintr-o orchestră de jazz, cu o personalitate carismatică și un viitor promițător. Însă mai mult de atât, Rufus era un bărbat de culoare, identitate care duce la criza acestuia. Viața lui Rufus se destramă, în timp ce prietenii și fostele iubiri ale lui traversează angoase individuale. De la Vivaldo și Ida, al căror relație tumultoasă duce la demiza lor, la triunghiul conjugal al lui Richard și Cass, la Eric și Yves, doi înamorați într-o societate ostilă, care nu îi acceptă.",
+        paragraph3: '"O altă țară" cuprinde toate subiectele care încă stau la nivelul societății ca o boală, de la prezența rasismului, a sexismului și a homofobiei, cartea reprezintă o ilustrare a unui moment în timp imprimat pe moralul colectiv al Americii, descrisă brutal în secvența "Asta nu e o țară, e o adunătură de jucători de fotbal și de cercetași. Lași". Atotcuprinzătoare, cartea reusește să prezinte explozia New Yorkului în epoca lui de glorie, cu toată gălăgia și tumultul interior resimțit de mâna de personaje diverse. Mai mult de atât, Baldwin reușește să captureze perfect nu doar atmosfera, cât și relația stabilită între persoane, penetrând în subconștientul acestora și arătând cititorului fiecare gând și reacție în raport cu sinele și restul. În alte cuvinte, cartea devine o lecție pentru fiecare scriitor aspirant în construirea unei lumi complexe, cu personaje pe măsură, care te înghit în întregime și te cuprind în învolburarea lor, în amestecul de griji, aspirații, oprimări și tragedii.',
+
+        author: "Maria Popa",
+        date: "30 Noiembrie, 2022"
+    },
+    {
+        id: 20,
+        title: "Autodescoperire sau autodistrugere?",
+        category: "Social",
+        color: '#A19664',
+        time: '5 minute',
+        coverImg: '/assets/blogImages/cover/cigs.jpg' ,
+        landscapeImg: '/assets/blogImages/landscape/sad.jpg',
+        description: "Pe măsură ce creștem, devenim conștienți de ceea ce ne înconjoară și în cele din urmă, de noi înșine. Adolescența e probabil perioadă în care fenomenul conștientizării de sine este cel mai prevalent și are un impact crucial asupra vieții de zi cu zi. Cert este că percepția noastră se modifică în mod constant. Și nu pot să nu mă întreb atunci, ce anume declanșează această schimbare de perspectivă și care versiune e cea mai apropiată de autenticitate?",
+        paragraph1: "Pe măsură ce creștem, devenim conștienți de ceea ce ne înconjoară și în cele din urmă, de noi înșine. Adolescența e probabil perioada în care fenomenul conștientizării de sine este cel mai prevalent și are un impact crucial asupra vieții de zi cu zi. Cert este că percepția noastră se modifică în mod constant. Și nu pot să nu mă întreb atunci, ce anume declanșează această schimbare de perspectivă și care versiune e cea mai apropiată de autenticitate?",
+        paragraph2: "Fără îndoială că interacțiunile sunt un factor care contribuie la modul în care ne percepem pe noi înșine. Când mă confrunt cu dificultăți în stabilirea valorii mele ca persoană, mă întreb adesea: poate autopercepția să vină exclusiv din interior, ignorând ceea ce cred alții? Sau opiniile externe ar trebui privite ca o critica constructivă, aspect esențial pentru creștere și dezvoltare? Consider că nu există un răspuns corect la această întrebare, mai ales pentru că problema este mai nuanțată decât credem. Cu toate acestea, a avea o minte deschisă, a procesa și a filtra feedback-ul în mod obiectiv nu poate duce decât la îmbunătățire.",
+        paragraph3: "Un alt aspect care joacă un rol major în călătoria noastră de autodescoperire este maturizarea. Maturitatea aduce multora o stimă de sine mai puternică, prin capacitatea de a stabili limite, de a nu se mai teme de conflicte, eșecuri, obstacole, de a-și exprima nevoile, de a fi mai asertivi și de a îmbrățișa cine sunt cu adevărat. Cu alte cuvinte, un sentiment de reflecție asupra propriei persoane are o șansă mai mare de a fi valid cu o influență externă cât mai mică sau chiar inexistentă la vârsta adultă, decât în perioada neclară a adolescenței.",
+        paragraph4: "Deși conștiința de sine este subiectivă și adesea imprevizibilă în rugozitatea sa, sper că putem fi cu toții de acord că fiecare dintre noi este valoros, unic și demn de respect.",
+
+        author: "Ema Călian",
+        date: "30 Noiembrie, 2022"
+
+    },
+
+    {
+        id:21,
+        title: "Muzică în căști cât tocești la bio",
+        category: "Social",
+        color: '#A19664',
+        time: '7 minute',
+        coverImg: '/assets/blogImages/cover/music_studying.jpg' ,
+        landscapeImg: '/assets/blogImages/landscape/music_studying.jpg',
+        description: "Școala are și părți bune…cred, dar știu cu siguranță că serile dinaintea testelor la bio nu se încadrează în această categorie. Ajungi acasă, îți pui ceva de mâncare și, momentul mult așteptat, începi să recitești lecțiile din caiet și te rogi să înțelegi ceva. Orele trec, se întunecă afară și tu ești încă în același punct din care ai plecat. Tot nu știi nimic, dar bonus, ești și extenuat. În casă e liniște și tu tocești la bio. Tocești la bio în liniște...de ce în liniște? Trebuie să fie liniște cât tocești la bio? Normal că nu! ",
+        paragraph1: "Școala are și părți bune…cred, dar știu cu siguranță că serile dinaintea testelor la bio nu se încadrează în această categorie. Ajungi acasă, îți pui ceva de mâncare și, momentul mult așteptat, începi să recitești lecțiile din caiet și te rogi să înțelegi ceva. Orele trec, se întunecă afară și tu ești încă în același punct din care ai plecat. Tot nu știi nimic, dar bonus, ești și extenuat. În casă e liniște și tu tocești la bio. Tocești la bio în liniște...de ce în liniște? Trebuie să fie liniște cât tocești la bio? Normal că nu! ",
+        paragraph2: "În situații de criză ca aceasta, eu prefer să urle muzica decât liniște de mormânt. Am întâlnit multe persoane care au fost oripilate de acest mod de a coopera cu tocitul inevitabil la bio: „Să înveți în timp ce asculți muzică? Nu e voie, nu vei reuși să înțelegi nimic.” Dar totuși, e doar muzică. Care e cel mai rău lucru care ți se poate întâmpla? Nu reușești să înveți? Ok, nu e ca și cum fără muzică erau șanse 100% să înțelegi. Vorbim de biologie, hai să nu ne amăgim chiar așa de tare...",
+        paragraph3: "Eu sunt un membru mândru al comunității care ascultă muzica obligatoriu în timp ce tocește la bio.  Să ascult muzică în timp ce învăț mă ajută, într-un mod straniu, să mă concentrez și să rețin mai ușor sutele de definiții. Adică să fim serioși, altfel e atunci când înveți despre celula eucariotă în timp ce îți cântă Abel despre cum e el „Heartless”. Parcă mai ușor reții cum clasifici nutriția sau care sunt proprietățile plasmalemei. (sincer, trebuie să recitiți lecția aceea, mari șanse să primiți la test!)",
+        paragraph4: "Pe lângă faptul că „prin muzică putem învăța despre noi înșine”, muzica e ceva care, cel puțin pe mine, mă ajută să evadez din realitate. Pentru câteva minute, uit de grijile legate de scoală, de faptul că mâine dau test la bio și nu știu nimic...uit de tot. Îi permit minții să nu-mi mai aparțină doar mie. Îmi permit să las amintirile dureroase să revină  și să mă acapareze din nou (un lucru nu chiar foarte healthy, believe me I know). Sau, tocmai contrariul, îmi permit să pun stop șirului neoprit de melancolie. Metaforic, muzica e podul spre o altă lume. O lume ideală, O LUME FĂRĂ TESTE LA BIO. Muzica leagă viața de zi cu zi de utopie. ",
+        paragraph5: "E gata prima melodie, începe a doua, mai citești despre ultrastructura celulei încă o dată. Și uite așa, încet-încet, puțin-câte-puțin, ai terminat de învățat pentru testul de mâine. Publicul e în delir, cu toții ovaționează, tu faci o plecăciune și victorios închizi caietul de biologie. Bineînțeles, la mine, muzica încă merge și consumă bateria de la telefon fără milă. Dar acum cui îi mai pasă? Ai scăpat de învățat, ai ieșit câștigător.  Muzica încă se aude în căști, tu te ridici de la birou (atrofiat, dar fericit) și lași muzica să te pătrundă... ",
+        paragraph6: "Poate că până la test vei uita tot, mai pățești... Măcar tu ai încercat, nu toți suntem meniți să fim olimpici la biologie. ",
+        author: "Madi Blaga",
+        date: "30 Noiembrie, 2022"
+    
+    },
+
+    {
+        id: 22,
+        title: "Validarea academică",
+        category: 'Social',
+        color: '#A19664',
+        time: '7 minute',
         coverImg: '/assets/blogImages/cover/validation.jpeg' ,
         subtitle: "-frustrarea cotidiana a studentului-",
         landscapeImg: '/assets/blogImages/landscape/validation.jpg',
@@ -15,14 +564,15 @@ export const blogList = [
         paragraph4: "Dorința pentru aprobare academică ne stă în sânge, dar greșelile trebuie făcute și ele la un moment dat, e uman, face parte din procesul de învățare și dezvoltarea personală. Cel mai aspru critic al unui om este el însuși, iar depășirea fricii de eșec pe care ne-o înfiripăm (mai mult sau mai puțin) singuri este primul pas înspre maturizare și echilibrare. Sănătatea mintală nu ar trebui sacrificată pentru validarea academică.",
         
         author: 'Alexia Marchiș',
-        date: '16 Octombrie, 2022'
+        date: '16 Noiembrie, 2022'
     },
 
     {
-        id: 2,
+        id: 23,
         title: 'Recenzie carte - "O viață măruntă"',
         category: 'Cultură',
         color: '#CC704B',
+        time: '10 minute',
         coverImg: '/assets/blogImages/cover/a_little_life.jpg',
         landscapeImg: '/assets/blogImages/landscape/a_little_life_l.jpg',
         //description: "Lorem Ipsum...",
@@ -35,14 +585,15 @@ export const blogList = [
         paragraph5: "Într-o notă mai pozitivă, cel mai frumos aspect al acestei cărți e modul în care se descriu prietenia și dinamica relațiilor cu oamenii din jur. Cititorul trăiește fiecare emoție resimțită de personaje, astfel creionându-se o conexiune strânsă între lumea reală și universul cărții. Autoarea descrie fiecare sentiment al protagoniștilor în mod autentic. De aceea, e recomandat să citiți romanul de față cu discreție, deoarece această autenticitate specifică autorului se leagă și de emoțiile și trăirile negative, ceea ce ar putea fi tulburător pentru unii. Hanya Yanagihara a scris totul într-un detaliu remarcabil, aspect care face ca povestea să ajungă la sufletul oricui. Când o carte reușește să îți rămână în minte și în inimă mult timp după ce ai așezat-o înapoi pe raft, poate fi numită o capodoperă. Iar „O viață măruntă” e acest gen de carte.",
 
         author: 'Mălina Bochiș',
-        date: '16 Octombrie, 2022'
+        date: '16 Noiembrie, 2022'
     },
 
     {
-        id: 3,
+        id: 24,
         title: "Despre Graffiti Drop",
         category: 'Interact Transilvania',
         color: '#3A8891',
+        time: '10 minute',
         coverImg: '/assets/blogImages/cover/graffiti.jpg',
         landscapeImg: '/assets/blogImages/landscape/graffiti.jpg',
         description: "Numele primului proiect Interact Transilvania, Graffiti Drop, încorporează exact esența acestuia. Prin eveniment, ne-am dorit să aducem împreună oameni pasionați de artă, profesioniști sau începători, pentru a petrece o zi relaxantă plină de culoare sau, poate, pentru a descoperi o formă de artă nouă, la care nu au avut acces înainte. Totodată, scopul proiectului Graffiti Drop a fost și de a transmite mesajul potrivit căruia arta vine în diverse forme și, atâta timp cât nu se ajunge la vandalism, orice formă a ei este acceptată și încurajată. Cele mai mari capodopere sunt create când imaginația este lăsată să zboare, stropind cu emoție pe hârtie.",
@@ -70,14 +621,15 @@ export const blogList = [
         
 
         author: 'Mălina Bochiș',
-        date: '16 Octombrie, 2022'
+        date: '16 Noiembrie, 2022'
     },
 
     {
-        id: 4,
+        id: 25,
         title: "Interact Transilvania --- Începuturi",
         category: 'Interact Transilvania',
         color: '#3A8891',
+        time: '5 minute',
         coverImg: '/assets/blogImages/cover/interact.jpeg',
         landscapeImg: '/assets/blogImages/landscape/interact.jpg',
         description: "Suntem un club de voluntariat adresat tinerilor dornici de a găsi soluții la problemele comunității noastre, prin intermediul propriilor pasiuni. Prin organizarea unor evenimente culturale în cadrul cărora vom promova creativitatea și spiritul de echipă, ne propunem îmbunătățirea relației actuale a comunității cu arta. Interact e o organizație non-guvernamentală și non-profit care țintește spre o lume mai bună",
@@ -94,6 +646,7 @@ export const blogList = [
 
 
         author: 'Mălina Bochiș',
-        date: '16 Octombrie, 2022'
-    }
+        date: '16 Noiembrie, 2022'
+    },
+
 ]

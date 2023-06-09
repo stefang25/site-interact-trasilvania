@@ -1,43 +1,39 @@
 .container {
     display: flex;
     justify-content: center;
+
 }
 
 @media (min-width: 768px) {
   .project-card {
-    width:18vw;
-    height:25vw ;
-  }
-  .image {
-    width:30vw;
+    width:35vh;
+    height:50vh ;
   }
 
   .project-action {
     position: absolute;
-    margin-top: 18vw;
-    width:16vw;
-    height:4.5vw;
+    margin-top: 35vh;
+    width:30vh;
+    height:9vh;
   }
 
   .project-name {
-    width:16vw;
-    height:4.5vw;
+    width:30vh;
+    height:9vh;
   }
 
   .project-title {
-    font-size: 1.2vw !important;
+    font-size: 2.5vh !important;
   }
 
 }
 
 @media (max-width: 768px) {
   .project-card {
-    width:60vw;
-    height:85vw;
+    width:27vh;
+    height:40vh;
   }
   .image {
-    width:60vw;
-    height:85vw;
   }
 
   .project-action {

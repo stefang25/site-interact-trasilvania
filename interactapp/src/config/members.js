@@ -1,8 +1,8 @@
 export const membersList = [
     {
         id:1,
-        name: "Daria Rodila",
-        role: "Presedinte",
+        name: "Daria Rodilă",
+        role: "Președinte",
         image: '/assets/members/daria.jpg',
         instagram: 'dariarodila',
         instagramLink: 'https://www.instagram.com/dariarodila'
@@ -11,7 +11,7 @@ export const membersList = [
     {
         id:2,
         name: "Sebastian Stoenoiu",
-        role:"Vicepresedinte",
+        role:"Vicepreședinte",
         image: '/assets/members/sebi.jpeg',
         instagram: 'sebastianstoenoiu',
         instagramLink: 'https://www.instagram.com/sebastianstoenoiu'

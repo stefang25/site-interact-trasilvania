@@ -27,7 +27,7 @@ const theme = createTheme({
 });
 
 const HomeAboutCard = () => {
-    
+    document.body.style.overflowX = "hidden"
 
     const [windowSize, detectHW] = useState({
         winWidth: window.innerWidth,
@@ -50,7 +50,7 @@ const HomeAboutCard = () => {
         };
       }, []);
     return (
-        <div className="cont">
+        <div className="cont" style={{}}>
           <ThemeProvider theme={theme}>
             <Card className='card'
             style={{ height:windowSize.winHeight, width:windowSize.winWidth}}>
@@ -62,7 +62,7 @@ const HomeAboutCard = () => {
             </Card>
             <h1 className='interact' style={{color:'white', position:'absolute', top:0.50 * windowSize.winHeight, fontSize:95, fontWeight:700, lineHeight: 1}}>Interact<br/>Transilvania</h1>
             <h2 className='subtitle' style={{color:'white', position:'absolute',top:0.8 * windowSize.winHeight, fontSize:32, fontWeight:500, marginLeft:550}}>Service above self.</h2>
-            <img className='background' src={svg} alt="" style={{ width: windowSize.winWidth}}/>
+            <img className='background' src={svg} alt="" style={{ width: windowSize.winWidth, overflowX:'hidden'}}/>
             <div className='content' style={{position:'absolute', top:1.1*windowSize.winHeight}}>
               <div className='description' style={{width:700, marginLeft:10+"%", textAlign:'left'}}>
                 <h2 className='about-heading' style={{fontWeight:600, fontSize:4+"vw", marginTop:15+"%"}}>Ce este Interact?</h2>
@@ -160,74 +160,71 @@ const HomeAboutCard = () => {
                 
 
 
-                <div className='splitscreen-home' style={{display:'flex', justifyContent: 'center', marginTop:40, marginBottom:40}}>
+                <div className='splitscreen-home'>
                           
                         
-                <div style={{}}>
-                  <div className='container' style={{paddingRight:0+"%", paddingLeft:0+"%", paddingBottom:0+"%"}}>
-                      <Card className='project-card'
-                        style={{ 
-                          borderRadius: 14,
-                          display: 'flex',
-                        }}>
+                  <div className='left'>
+                    <div className='container' >
+                        <Card className='project-card'
+                          style={{ 
+                            borderRadius: 14,
+                            display: 'flex',
+                          }}>
 
-                            <CardMedia
-                            component="img"
-                            image = {projectsList[0].coverImg}
-                            />
-                      </Card>
+                              <CardMedia
+                              component="img"
+                              image = {projectsList[0].coverImg}
+                              />
+                        </Card>
 
-                      <CardActionArea className='project-action' component={RouterLink} to={`/projects/1`} >
+                        <CardActionArea className='project-action' component={RouterLink} to={`/projects/1`} >
 
-                      <Card className='project-name'>
+                        <Card className='project-name'>
 
-                            <CardContent style={{marginTop:0.7+"vw"}}>
-                                <Typography variant="h2" className='project-title' style={{lineHeight:1.2, fontSize:1.8+"vh", textAlign: "center"}}>
-                                  {projectsList[0].title}
-                                </Typography>
-                              </CardContent>
+                              <CardContent style={{marginTop:0.7+"vw"}}>
+                                  <Typography variant="h2" className='project-title' style={{lineHeight:1.2, fontSize:1.8+"vh", textAlign: "center"}}>
+                                    {projectsList[0].title}
+                                  </Typography>
+                                </CardContent>
 
-                      </Card>
-                      </CardActionArea>
+                        </Card>
+                        </CardActionArea>
 
+                    </div>
+                    
                   </div>
-                  
-                </div>
 
 
-                {/* <div className='right'>
-                  <div className='container' >
-                      <Card className='project-card-home'
-                        style={{
-                          borderRadius: 14,
-                          display: 'flex',
-                          height:23+"vw",
-                          width:18+"vw"
-                        }}>
+                  <div className='right'>
+                    <div className='container' >
+                        <Card className='project-card'
+                          style={{
+                            borderRadius: 14,
+                            display: 'flex'
+                          }}>
 
-                            <CardMedia
-                            component="img"
-                            image = {projectsList[0].coverImg}
-                            />
-                      </Card>
+                              <CardMedia
+                              component="img"
+                              image = {projectsList[1].coverImg}
+                              />
+                        </Card>
 
-                      <CardActionArea className='project-action' component={RouterLink} to={`/projects/2`} style={{width:20+"vh"}}>
+                        <CardActionArea className='project-action' component={RouterLink} to={`/projects/2`}>
 
-                      <Card className='project-name'  style={{width:20+"vh"}}>
+                        <Card className='project-name'>
 
-                            <CardContent style={{marginTop:0.7+"vw"}}>
-                                <Typography variant="h2" className='project-title' style={{lineHeight:1.2, fontSize:1.8+"vh", textAlign: "center"}}>
-                                  {projectsList[0].title}
-                                </Typography>
-                              </CardContent>
+                              <CardContent style={{marginTop:0.7+"vw"}}>
+                                  <Typography variant="h2" className='project-title' style={{lineHeight:1.2, fontSize:1.8+"vh", textAlign: "center"}}>
+                                    {projectsList[1].title}
+                                  </Typography>
+                                </CardContent>
 
-                      </Card>
-                      </CardActionArea>
+                        </Card>
+                        </CardActionArea>
 
+                    </div>
                   </div>
-                </div>
 
-                </div> */}
 
                 </div>
 

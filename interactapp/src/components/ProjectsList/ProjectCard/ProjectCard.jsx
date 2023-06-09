@@ -24,7 +24,7 @@ const ProjectCard = ({
   }
 }) => {
   return (
-    <div className='container' style={{padding:0+"%"}}>
+    <div className='container' style={{padding:0+"%", margin:50}}>
     <Card className='project-card'
       style={{
         borderRadius: 14,

@@ -8,9 +8,9 @@ import { stack as Menu } from 'react-burger-menu';
 
 const NavBar = () => {
   return (
-    <AppBar position='fixed' style={{ background: '#ffffff', boxShadow: 'none', height:90}}>
+    <AppBar position='fixed' style={{ background: '#ffffff', boxShadow: 'none', height:80}}>
         <Toolbar className='toolbar' color='#ffffff'>
-          <a href="/"><img className='logo' src={logo} style={{height:60, justifyContent:'center', marginTop:15, marginLeft:4+"vw"}} /></a>
+          <a href="/"><img className='logo' src={logo} style={{height:50, justifyContent:'center', marginTop:15, marginLeft:3+"vw"}} /></a>
         
           <Stack direction='row' spacing={7} className='stack' style={{}}>
               <a className='tab' href='/about-us'>Despre noi</a>
