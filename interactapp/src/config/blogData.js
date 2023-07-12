@@ -1,6 +1,26 @@
 export const blogList = [
     {
-        id:1,
+        id: 1,
+        title: 'M-ar mai speria filmele horror dacă le-aș da pe mut?',
+        author: 'Maria Dejeu',
+        date: '12 Iulie, 2023',
+        category: '',
+        time: '5 minute',
+        coverImg: '/assets/blogImages/cover/COVER - M-ar mai speria filmele horror daca le-as da pe mut.jpeg',
+        landscapeImg: 'assets/blogImages/landscape/LANDSCAPE - M-ar mai speria filmele horror daca le-as da pe mut.jpeg',
+        description: 'Ți s-a mai întâmplat să dai automat sunetul mai încet la film când urma o secvență „scary”, încât să nu te sperii atât de tare? Păi și lucrul acesta are sensul lui, indiferent cât de mare îți este afinitatea pentru filmele horror.',
+
+        paragraph1: '\tEram în clasa a cincea și stăteam în spatele clasei când am dat peste trailer-ul filmului „It”, adaptat după nuvela horror a lui Stephen King. În capul meu de copil de zece ani cred că s-a schimbat ceva la nivel biologic (nu s-a schimbat, dar înțelegeți voi) când celebrul balon roșu a lui Pennywise plutea prin bibliotecă. În acel moment,  normal că nu am stat să mă gândesc de ce nu am mai putut dormi cum trebuie două săptămâni întregi. Însă, la un moment dat, curiozitatea dobândită de-a lungul ultimilor ani m-a îndemnat să spun „De ce?” și atunci am realizat că melodia aproape neauzită din spatele scenei m-a făcut de fapt să cred că balonul roșu va apărea și în holul casei mele. Realizarea m-a adus la prezenta mea iubire pentru psihologia și mecanismele din spatele filmelor horror.',
+        paragraph2: '\tDacă ai început să citești asta, cel mai probabil ai văzut și tu măcar un film horror până în prezent. În cazul în care încă n-ai făcut-o, cred că măcar de curiozitate o vei face după ce termini. Recomand să te uiți chiar la “It” sau minunățiile regizorului Ari Aster. Dacă, totuși, te-ai mai uitat, ți s-a mai întâmplat să dai automat sunetul mai încet la film când urma o secvență „scary”, încât să nu te sperii atât de tare? Păi și lucrul acesta are sensul lui.',
+        paragraph3: '\tColoana sonoră și muzica din filme sunt prezente ca să îmbunătățească impactul filmului asupra celui din fața ecranului, dar în cazul filmelor horror, e chiar mai mult de atât. După cum am explicat și mai sus, un film horror bun te face să sari din scaun, sau pur și simplu îți face pielea de găină pentru că e „dark and twisted’. În orice caz, de ce ar conta mai mult genul filmului în cât de prioritară i-ar fi calitatea? Hai să luăm un exemplu. În mod natural și biologic, asociem anumite sunete cu o reacție sau un sentiment. Râsul unui copil mic (sau unui adult dacă nu-ți plac copiii) îți induce la rândul său o senzație de bucurie, sau măcar una de natură pozitivă, pe când sunetul unui om plângând sau a unor unghii frecându-se de o tablă te aduc într-o stare inconfortabilă, neplăcută. De ce nu ar fi așa și în lumea filmelor de groază?',
+        paragraph4: '\tUnul dintre cele mai comune efecte provocate de coloana sonoră în filme este cel de “jumpscare”. Acesta este gândit în felul următor: într-o scenă plină de suspans, unde protagonistul sau personajele, în general, sunt în pericol sau sunt urmăriți, muzica se oprește și încet, încet, toate efectele sonore se întrerup, iar persoana care vizionează filmul conștientizează ce se întâmplă în film, știind că ce urmează nu va fi foarte primitor și fericit. Apoi, brusc, urmează un sunet de intensitate mare, repulsiv. Efectul este unul șocant, creând o stare imprevizibilă și palpitantă. De asemenea, țipetele sunt ușor asociate cu teroarea, frica și durerea, încât instant devii din nou stresat și în alert la ce va urma. Această adrenalină provocată celor ce vizionează, ce te face să-ți simți sângele în vene, câștigă majoritatea iubitorilor de filme horror.',
+        paragraph5: '\tMajoritatea. Sunt oameni care au o afinitate pentru alt gen de filme horror: cele psihologice. Treaba e aproape la fel: muzica este dată din ce în ce mai încet, sunetele ambientale devin din ce în ce mai sinistre, însă punctul culminant nu mai vine, ceea ce ajunge să te îngrijoreze. Constanta stare de incertitudine te pune într-un loc sensibil, devii mult mai atent la și cele mai mici detalii. Procesul în sine e mai complicat și variază de la film la film. În filmul Hereditary (2018), creatorul filmului a ales un sunet de „clic” care s-a auzit prima dată când unul dintre personaje a murit într-un mod înfiorător (scuze de spoiler, dar până la urmă e film horror, deci oricum moare cineva) și acel sunet se repeta de fiecare dată când se prezenta o scenă plină de suspans. În mod normal, dacă nu ai văzut filmul, un sunet de „clic” aiurea nu te-ar face să sari din scaun, dar din experiență personală și fără niciun fel de exagerare, sari din scaun când auzi a treia oară sunetul respectiv. Asta fiind dovada necesară să înțelegi mai bine cum și filmele horror psihologice te umplu de adrenalină.',
+        paragraph6: '\tCu timpul, tehnologia și industria evoluează și specialiștii găsesc tot felul de moduri aproape diabolice să te îngrozească cu doar niște sunete ambientale, însă la rădăcină, natura noastră ne face să reacționăm direct la sunetele prezente și faptul că regizorii profită de asta în filme precum The Shining (1980) și ne și face să ne placă mi se pare simplu fascinant.'
+
+    },
+    
+    {
+        id:2,
         title: `Voluntariatul – manifestare a altruismului?`,
         category: 'Social',
         color: '#A19664',
@@ -30,7 +50,7 @@ export const blogList = [
     },
 
     {
-        id:2,
+        id:3,
         title: `Recenzie carte - “Ca și cum nimic nu s-ar fi întâmplat”`,
         category: 'Cultură',
         color: '#CC704B',
@@ -49,7 +69,7 @@ export const blogList = [
     },
 
     {
-        id:3,
+        id:4,
         title: `În conversație cu noua generație de artiști`,
         category: 'Interact Transilvania',
         color: '#3A8891',
@@ -131,7 +151,7 @@ export const blogList = [
     },
 
     {
-        id:4,
+        id:5,
         title: `Cum a fost la "Poveste la film"`,
         category: 'Interact Transilvania',
         color: '#3A8891',
@@ -152,7 +172,7 @@ export const blogList = [
     },
 
     {
-        id:5,
+        id:6,
         title: `Despre "Aici Improvizăm"`,
         category: 'Interact Transilvania',
         color: '#3A8891',
@@ -172,7 +192,7 @@ export const blogList = [
     },
 
     {
-        id:6,
+        id:7,
         title: "Rujul și privirea masculină",
         category: 'Social',
         color: '#A19664',
@@ -202,7 +222,7 @@ export const blogList = [
     },
 
     {
-        id:7,
+        id:8,
         title: `Prima mea iubire muzicală.`,
         category: 'Cultură',
         color: '#CC704B',
@@ -231,7 +251,7 @@ export const blogList = [
     },
 
     {
-        id:8,
+        id:9,
         title: "STEM vs Arts",
         category: 'Social',
         color: '#A19664',
@@ -254,7 +274,7 @@ export const blogList = [
 
     {
 
-        id:9,
+        id:10,
         title: 'Nu sunt pasionata de nimic',
         category: 'Social',
         color: '#A19664',
@@ -278,7 +298,7 @@ export const blogList = [
     },
 
     {
-        id:10,
+        id:11,
         title: `Fallen Angels (1995) - o experiență cinematografică`,
         category: 'Cultură',
         color: '#CC704B',
@@ -299,7 +319,7 @@ export const blogList = [
     },
 
     {
-        id:11,
+        id:12,
         title: `Woodstock '99`,
         category: 'Cultură',
         color: '#CC704B',
@@ -324,7 +344,7 @@ export const blogList = [
     },
 
     {
-        id: 12,
+        id: 13,
         title: "Cafeluța de dimineață",
         category: "Social",
         color: '#A19664',
@@ -345,7 +365,7 @@ export const blogList = [
     },
 
     {
-        id:13,
+        id:14,
         title: 'Globuri și Copii ',
         category: 'Interact Transilvania',
         color: '#3A8891',
@@ -366,7 +386,7 @@ export const blogList = [
     },
 
     {
-        id:14,
+        id:15,
         title: 'În conversație cu noua generație de poeți',
         category: 'Interact Transilvania',
         color: '#3A8891',
@@ -408,7 +428,7 @@ export const blogList = [
     },
 
     {
-        id:15,
+        id:16,
         title: 'Despre Pălăvrăgeală Poetică',
         category: 'Interact Transilvania',
         color: '#3A8891',
@@ -427,7 +447,7 @@ export const blogList = [
     },
     
     {
-        id:16,
+        id:17,
         title: 'Taylor Swift',
         category: 'Cultură',
         color: '#CC704B',
@@ -450,7 +470,7 @@ export const blogList = [
     },
 
     {
-        id:17,
+        id:18,
         title: 'Odd Future- o scurtă istorie',
         category: 'Cultură',
         color: '#CC704B',
@@ -471,7 +491,7 @@ export const blogList = [
     },
     
     {
-        id: 18,
+        id: 19,
         title: "Winter fashion",
         category: 'Cultură',
         color: '#CC704B',
@@ -492,7 +512,7 @@ export const blogList = [
     },
 
     {
-        id: 19,
+        id: 20,
         title: 'Recenzie carte - "O altă țară"',
         subtitle: "Gata să izbucnească în muzică sau în flăcări sau o revelație",
         category: 'Cultură',
@@ -509,7 +529,7 @@ export const blogList = [
         date: "30 Noiembrie, 2022"
     },
     {
-        id: 20,
+        id: 21,
         title: "Autodescoperire sau autodistrugere?",
         category: "Social",
         color: '#A19664',
@@ -528,7 +548,7 @@ export const blogList = [
     },
 
     {
-        id:21,
+        id:22,
         title: "Muzică în căști cât tocești la bio",
         category: "Social",
         color: '#A19664',
@@ -548,7 +568,7 @@ export const blogList = [
     },
 
     {
-        id: 22,
+        id: 23,
         title: "Validarea academică",
         category: 'Social',
         color: '#A19664',
@@ -568,7 +588,7 @@ export const blogList = [
     },
 
     {
-        id: 23,
+        id: 24,
         title: 'Recenzie carte - "O viață măruntă"',
         category: 'Cultură',
         color: '#CC704B',
@@ -589,7 +609,7 @@ export const blogList = [
     },
 
     {
-        id: 24,
+        id: 25,
         title: "Despre Graffiti Drop",
         category: 'Interact Transilvania',
         color: '#3A8891',
@@ -625,7 +645,7 @@ export const blogList = [
     },
 
     {
-        id: 25,
+        id: 26,
         title: "Interact Transilvania --- Începuturi",
         category: 'Interact Transilvania',
         color: '#3A8891',
