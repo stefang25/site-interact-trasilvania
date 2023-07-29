@@ -1,7 +1,7 @@
 export const membersList = [
     {
         id:1,
-        name: "Daria Rodilă",
+        name: "Daria Rodila",
         role: "Președinte",
         image: '/assets/members/daria.jpg',
         instagram: 'dariarodila',
